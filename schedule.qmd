@@ -1,0 +1,84 @@
+---
+title: "Schedule"
+format: 
+  html: 
+    toc: false
+---
+
+A tentative high-level overview of the semester's topics are presented here. Topics are subject to change based on class progress. Please select a week for a specific day's assignments and materials.
+
+### [Week 01](weeks/week-01.qmd)
+
+-   Welcome
+-   Set theory
+-   Counting Methods
+
+### [Week 02](weeks/week-02.qmd)
+
+-   Probability axioms
+-   R and RStudio
+-   Conditional probability, Bayes Rule, LoTP
+
+### [Week 03](weeks/week-03.qmd)
+
+-   Independence of events
+-   Discrete random variables (Bernoulli, Binomial)
+-   Monty Hall
+
+### [Week 04](weeks/week-04.qmd)
+
+-   Hypergeometric
+-   Function of RVs
+-   Independence of RVs
+-   Expectation
+
+### [Week 05](weeks/week-05.qmd)
+
+-   Geometric and Negative Binomial
+-   Indicators
+
+### Spring break!
+
+### [Week 6](weeks/week-06.qmd)
+
+-   Variance
+-   Poisson
+-   Continuous RVs
+-   Uniform
+
+### [Week 7](weeks/week-07.qmd)
+
+-   Normal distribution
+-   Exponential distribution
+-   Continuous RVs in `R`
+
+### [Week 8](weeks/week-08.qmd)
+
+-   Moments
+-   MGFs
+
+### [Week 9](weeks/week-09.qmd)
+
+-   Joint distributions
+-   2D LoTUS
+-   Covariance
+
+### [Week 10](weeks/week-10.qmd)
+
+-   Transformations of RVs (change of variable)
+-   Beta and gamma
+
+### [Week 11](weeks/week-11.qmd)
+
+-   Conditional expectation
+-   Conditional variance
+
+### [Week 12](weeks/week-12.qmd)
+
+-   Inequalities
+-   Law of Large Numbers
+-   Central Limit Theorem!
+
+### [Week 13](weeks/week-13.qmd)
+
+-   CLT cont.

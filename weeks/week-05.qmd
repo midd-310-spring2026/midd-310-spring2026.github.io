@@ -1,0 +1,50 @@
+---
+title: "Week 05"
+---
+
+::: {style="color: #F66D7A"}
+### Monday (3/10)
+:::
+
+**Topics**
+
+-   Geometric and Negative Binomial Distributions
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_12.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_12.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Wednesday (3/12)
+:::
+
+**Topics**
+
+-   Indicator variables
+-   Fundamental Bridge
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_13.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_13.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Friday (3/14)
+:::
+
+**No class nor office hours! Please fill out the mid-semester survey found on the homepage!**

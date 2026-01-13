@@ -1,0 +1,50 @@
+---
+title: "Week 12"
+---
+
+::: {style="color: #F66D7A"}
+### Monday (5/05)
+:::
+
+**Topics**
+
+-   Inequalities
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_31.pdf) (last one!)
+
+**Class activity**
+
+-   [Class activity](class/CA_31.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Wednesday (5/07)
+:::
+
+**Topics**
+
+-   Law of Large Numbers!
+
+**Class activity**
+
+-   [Code and plots](class/CA_32_LLN.qmd) for LLN and MC integration
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Friday (5/09)
+:::
+
+**Topics**
+
+-   Central Limit Theorem!
+-   CRFs
+
+**Class activity**
+
+-   [Plot](class/CA_33_CLT.qmd) for CLT demo

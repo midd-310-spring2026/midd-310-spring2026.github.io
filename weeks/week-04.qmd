@@ -1,0 +1,66 @@
+---
+title: "Week 04"
+---
+
+::: {style="color: #F66D7A"}
+### Monday (3/03)
+:::
+
+**Topics**
+
+-   More discrete RV's
+-   CDF
+-   Joint PMF
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_09.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_09.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Wednesday (3/05)
+:::
+
+**Topics**
+
+-   Functions of RVs
+-   Random variables in `R`
+-   Independence of RVs
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_10.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_10.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Friday (3/07)
+:::
+
+**Topics**
+
+-   Expected value
+-   LoTUS
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_11.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_11.pdf)

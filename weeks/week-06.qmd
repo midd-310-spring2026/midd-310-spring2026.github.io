@@ -1,0 +1,67 @@
+---
+title: "Week 06"
+---
+
+::: {style="color: #F66D7A"}
+### Monday (3/24)
+:::
+
+**Topics**
+
+-   Variance
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_14.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_14.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Wednesday (3/26)
+:::
+
+::: {style="color: purple"}
+**Content through today is fair game for Midterm!**
+:::
+
+**Topics**
+
+-   Poisson distribution
+-   Poisson paradigm
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_15.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_15.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Friday (3/28)
+:::
+
+**Topics**
+
+-   Continuous random variables
+-   Uniform
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_16.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_16.pdf)

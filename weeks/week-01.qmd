@@ -1,0 +1,63 @@
+---
+title: "Week 01"
+---
+
+::: {style="color: #F66D7A"}
+### Monday (2/10)
+:::
+
+**Topics**
+
+-   Welcome!
+-   Course logistics
+
+**Daily assignment**
+
+-   Review syllabus
+-   Complete the [pre-class survey](https://docs.google.com/forms/d/e/1FAIpQLScD7shTtq2_DGuVyQO-7mnpb5hVN53GphykmFPPj9dW8Bul3g/viewform?usp=sharing) if you haven't already
+
+**Class activity**
+
+-   [Discussion questions](class/CA_00.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Wednesday (2/12)
+:::
+
+**Topics**
+
+-   Foundations
+-   Set theory
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_01.pdf)
+
+**Class material**
+
+-   None
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Friday (2/14)
+:::
+
+**Topics**
+
+-   Counting methods
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_02.pdf)
+
+**Class material**
+
+-   Birthday problem handout ([blank](class/birthday_problem_plot.qmd) and [filled-in](class/birthday_problem_complete.pdf) version)
+-   [Practice problems](class/CA_02.pdf)

@@ -1,0 +1,63 @@
+---
+title: "Week 10"
+---
+
+::: {style="color: #F66D7A"}
+### Monday (4/21)
+:::
+
+**Topics**
+
+-   Change of variable formula (1D and general n-D)
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_25.pdf) (a bit longer because the example is long; please plan accordingly)
+    -   Note the optional refresher video on change-of-variable from Calculus!
+
+**Class activity**
+
+-   [Class activity](class/CA_25.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Wednesday (4/23)
+:::
+
+**Topics**
+
+-   Beta distribution
+-   Gamma distribution
+
+**Daily assignment**
+
+-   [Daily assignment](daily/DA_26.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_26.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Friday (4/25)
+:::
+
+::: {style="color: purple"}
+**Quiz 2 in class! Plan to start at 8:30am!**
+:::
+
+**Topics**
+
+-   Quiz 2
+
+**Daily assignment**
+
+-   None!
+
+**Class activity**
+
+-   None!

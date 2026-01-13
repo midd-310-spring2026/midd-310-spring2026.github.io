@@ -1,0 +1,21 @@
+---
+title: "Week 13"
+---
+
+::: {style="color: #F66D7A"}
+### Monday (5/12)
+:::
+
+**Topics**
+
+-   CLT (cont.)
+
+**Daily assignment**
+
+-   None!
+
+**Class activity**
+
+-   TBD
+
+------------------------------------------------------------------------

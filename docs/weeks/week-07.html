@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.313">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>MATH/STAT 310: Probability - Week 07</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<link href="../img/img.png" rel="icon" type="image/png">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/quarto-contrib/downloadthis-1.9.1/downloadthis.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-sidebar docked nav-fixed fullcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../img/img.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../index.html">
+    <span class="navbar-title">MATH/STAT 310: Probability</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="../schedule.html" aria-current="page">
+ <span class="menu-text">Schedule</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../homework.html">
+ <span class="menu-text">Homework</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../assessments/exam.html">
+ <span class="menu-text">Assesments</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://drive.google.com/file/d/1VmkAAGOYCTORq1wxSQqy255qLJjTNvBI/view"><i class="bi bi-book-half" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://middlebury.instructure.com/"><i class="bi bi-bar-chart-fill" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">Week 07</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation docked overflow-auto">
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../schedule.html" class="sidebar-item-text sidebar-link">Schedule</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week-01.html" class="sidebar-item-text sidebar-link">Week 01</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week-02.html" class="sidebar-item-text sidebar-link">Week 02</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week-03.html" class="sidebar-item-text sidebar-link">Week 03</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week-04.html" class="sidebar-item-text sidebar-link">Week 04</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week-05.html" class="sidebar-item-text sidebar-link">Week 05</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week-06.html" class="sidebar-item-text sidebar-link">Week 06</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week-07.html" class="sidebar-item-text sidebar-link active">Week 07</a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../weeks/week-08.html" class="sidebar-item-text sidebar-link">Week 08</a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title d-none d-lg-block">Week 07</h1>
+</div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="monday-331" class="level3" style="color: #F66D7A">
+<h3 class="anchored" data-anchor-id="monday-331">Monday (3/31)</h3>
+</section>
+<p><strong>Topics</strong></p>
+<ul>
+<li>Normal distribution</li>
+</ul>
+<p><strong>Daily assignment</strong></p>
+<p>To be completed and submitted to Canvas by 7:45am</p>
+<ul>
+<li><a href="daily/DA_17.pdf">Daily assignment</a></li>
+</ul>
+<p><strong>Class activity</strong></p>
+<ul>
+<li><a href="class/CA_17.pdf">Class activity</a></li>
+</ul>
+<hr>
+<section id="wednesday-402" class="level3" style="color: #F66D7A">
+<h3 class="anchored" data-anchor-id="wednesday-402">Wednesday (4/02)</h3>
+</section>
+<p><strong>Topics</strong></p>
+<ul>
+<li>Exponential</li>
+</ul>
+<p><strong>Daily assignment</strong></p>
+<p>To be completed and submitted to Canvas by 7:45am</p>
+<ul>
+<li><a href="daily/DA_18.pdf">Daily assignment</a></li>
+</ul>
+<p><strong>Class activity</strong></p>
+<ul>
+<li><a href="class/CA_18.pdf">Class activity</a></li>
+</ul>
+<hr>
+<section id="friday-404" class="level3" style="color: #F66D7A">
+<h3 class="anchored" data-anchor-id="friday-404">Friday (4/04)</h3>
+</section>
+<p><strong>Please bring laptops to class!</strong></p>
+<p><strong>Topics</strong></p>
+<ul>
+<li>Universality of the Uniform</li>
+<li>Continuous RVs in <code>R</code></li>
+</ul>
+<p><strong>Daily assignment</strong></p>
+<p>To be completed and submitted to Canvas by 7:45am</p>
+<ul>
+<li>None!</li>
+</ul>
+<p><strong>Class activity</strong></p>
+<ul>
+<li>Live code posted after class
+<ul>
+<li><code>.Rmd</code> template for in-class activity: <a href="#mtcars-btn" onclick="fetch('data:text/plain;base64,LS0tCnRpdGxlOiAiQ29udGludW91cyBSVnMgYW5kIFVuaXZlcnNhbGl0eSBvZiBVbmlmb3JtIgphdXRob3I6ICJZb3VyIG5hbWUiCmRhdGU6ICIyMDI1LTA0LTA0IgplZGl0b3Jfb3B0aW9uczoKICBjaHVua19vdXRwdXRfdHlwZTogY29uc29sZQotLS0KCmBgYHtyIHNldHVwLCBpbmNsdWRlPUZBTFNFfQprbml0cjo6b3B0c19jaHVuayRzZXQoZWNobyA9IFRSVUUsIGZpZy5oZWlnaHQgPSAzKQpgYGAKCiMjIENvbnRpbnVvdXMgUlZzCgpCdWlsdCBpbnRvIGBSYCBhcmUgc29tZSBmdW5jdGlvbnMgdGhhdCB3b3JrIHdpdGggdGhlIG5hbWVkIGNvbnRpbnVvdXMgZGlzdHJpYnV0aW9ucy4gUmVjYWxsIHdlIGhhdmUgdGhlIGZvbGxvd2luZyB0eXBlcyBvZiBmdW5jdGlvbnM6CgpGb3IgZXhhbXBsZToKCi0gICBgZG5vcm0oeCwgbXUsIHNpZ21hKWAgd2lsbCBldmFsdWF0ZSB0aGUgUERGIG9mIGEgJE4oXG11LCBcc2lnbWFeMikkIGRpc3RyaWJ1dGlvbiBhdCB0aGUgdmFsdWUgYHhgLgotICAgYHBub3JtKHEsIG11LCBzaWdtYSlgIHdpbGwgZXZhbHVhdGUgdGhlIENERiBvZiBhICROKFxtdSwgXHNpZ21hXjIpJCBkaXN0cmlidXRpb24gYXQgdGhlIHZhbHVlIGBxYAotICAgYHFub3JtKHAsIG11LCBzaWdtYSlgIHdpbGwgZXZhbHVhdGUgdGhlIGludmVyc2UtQ0RGIG9mIGEgJE4oXG11LCBcc2lnbWFeMikkIGRpc3RyaWJ1dGlvbiBhdCB0aGUgdmFsdWUgYHBgCi0gICBgcm5vcm0obiwgbXUsIHNpZ21hKWAgd2lsbCBnZW5lcmF0ZSBgbmAgcmFuZG9tIHZhcmlhYmxlcyBmcm9tIHRoZSAkTihcbXUsIFxzaWdtYV4yKSQgZGlzdHJpYnV0aW9uCgpOT1RFOiBmb3IgdGhlIGBfbm9ybSgpYCBmdW5jdGlvbnMgaW4gUiwgdGhlIGZ1bmN0aW9ucyBleHBlY3Qgc3RhbmRhcmQgZGV2aWF0aW9uIGFzIGlucHV0LCBub3QgdmFyaWFuY2UhIQoKYGBge3J9CiMgWCB+IE4oMCwgNCkgLT4gV2hhdCBpcyBQKFggPD0gMSk6CgojIEdlbmVyYXRlIDEwIHJhbmRvbSB2YXJpYWJsZXMgZnJvbSB0aGUgVW5pZigwLDEpIGRpc3RyaWJ1dGlvbjoKCiMgWCB+IEV4cCgyKS4gV2hhdCBpcyBmKDEpPwoKIyBPYnRhaW4gbWVkaWFuIG9mIHN0YW5kYXJkIG5vcm1hbAoKYGBgCgojIyBWaXN1YWxpemluZyBkZW5zaXRpZXMKClNvbWV0aW1lcyBpdCBjYW4gYmUgaGVscGZ1bCB0byB2aXN1YWxpemUgdGhlIGRlbnNpdHkgb2YgYSBkaXN0cmlidXRpb24uIFRoZXJlIGFyZSBhIGNvdXBsZSB3YXlzIHdlIGNhbiBkbyB0aGlzLiBMZXQncyBkbyB0aGlzIGV4YW1wbGUgZm9yIHRoZSAkVW5pZigxLCAxLjUpJCBkaXN0cmlidXRpb24uCgojIyMgT3B0aW9uIDEKCipJZiB3ZSBjYW4gcmFuZG9tbHkgc2FtcGxlIGZyb20gdGhlIGRpc3RyaWJ1dGlvbiosIHdlIGNhbiBnZW5lcmF0ZSBsb3RzIGFuZCBsb3RzIG9mIHJhbmRvbSB2YXJpYWJsZXMgZnJvbSB0aGF0IGRpc3RyaWJ1dGlvbiBhbmQgbWFrZSBhIGhpc3RvZ3JhbSBvZiB0aGVtOgoKYGBge3IgZmlnLmhlaWdodD0zfQojIHNpbXVsYXRlIGxvdHMgYW5kIGxvdHMgb2YgVW5pZigxLCAxLjUpIHJ2cwoKIyBtYWtlIGEgaGlzdG9ncmFtIG9mIHRoZSBzaW11bGF0aW9ucwpgYGAKCiMjIyBPcHRpb24gMgoKKklmIHdlIGhhdmUgYWNjZXNzIHRvIHRoZSBQREYgZGlyZWN0bHkqICh3aGljaCB3ZSBkbyBmb3IgdGhlIG5hbWVkIGRpc3RyaWJ1dGlvbnMpLCB3ZSBjYW4gc2ltcGx5IGdyYXBoIHRoZSBmdW5jdGlvbjoKCmBgYHtyIGZpZy5oZWlnaHQgPSAzfQojIGNyZWF0ZSBhIHNlcXVlbmNlIG9mIHZhbHVlcyBmcm9tIDAgYW5kIDIgYXQgZXF1YWxseS1zaXplIDAuMDEgaW5jcmVtZW50cwoKCiMgZXZhbHVhdGUgUERGIG9mIGludGVyZXN0IGF0IGVhY2ggdmFsdWUgaW4geF9zZXEKCgojIHZpc3VhbGl6ZQoKCmBgYAoKIyMgVW5pdmVyc2FsaXR5IG9mIFVuaWZvcm0gLyBQcm9iYWJpbGl0eSBJbnRlZ3JhbCBUcmFuc2Zvcm0KCk5vdywgbGV0J3Mgc2VlIHRoZSBVbml2ZXJzaXR5IG9mIHRoZSBVbmlmb3JtIGluIGFjdGlvbiEgU3VwcG9zZSB5b3UndmUgbG9zdCBhY2Nlc3MgdG8gYWxsIHRoZSBmdW5jdGlvbnMgaW4gUiB0aGF0IGFsbG93IHlvdSByYW5kb21seSBnZW5lcmF0ZSBydnMgZnJvbSBhbGwgdGhlIG5hbWVkIGRpc3RyaWJ1dGlvbiBleGNlcHQgZm9yIHRoZSBVbmlmb3JtLgoKIyMjIEV4YW1wbGUgMQoKSG93IGNhbiB3ZSBzaW11bGF0ZSB2YWx1ZXMgZnJvbSB0aGUgJFx0ZXh0e0V4cH0oMikkIGRpc3RyaWJ1dGlvbj8KCmBgYHtyIGZpZy5oZWlnaHQgPSAzfQojIGdlbmVyYXRlIGxvdHMgb2YgVW5pZigwLDEpIHJ2cwoKIyB1c2UgaW52ZXJzZSBDREYgdGhhdCB3ZSBkZXJpdmVkCgojIHZpc3VhbGl6ZSAKCmBgYAoKIyMjIEV4YW1wbGUgMgoKU3VwcG9zZSB3ZSBoYXZlIGEgZGlzdHJpYnV0aW9uIHdob3NlIFBERiBpcyAkJGZfe1h9KHgpID0gXGZyYWN7ZV57LXh9fXsoMSArIGVeey14fSleMn0kJAoKZm9yICR4IFxpbiAoLVxpbmZ0eSwgXGluZnR5KSQuCgpXcml0ZSBjb2RlIHRvIHNpbXVsYXRlIDEwMDAgcmFuZG9tIHZhcmlhYmxlcyBmcm9tIHRoaXMgZGlzdHJpYnV0aW9uLCBhbmQgYW5kIHZpc3VhbGl6ZSB0aGVtIGFzIGEgZGVuc2l0eSBoaXN0b2dyYW0uCgpgYGB7ciBmaWcuaGVpZ2h0ID0gM30KCgpgYGAK').then(res => res.blob()).then(blob => {
+      const downloadURL = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      document.body.appendChild(a);
+      a.href = downloadURL;
+      a.download = 'universality.Rmd'; a.click();
+      window.URL.revokeObjectURL(downloadURL);
+      document.body.removeChild(a);
+        });"><button class="btn btn-default downloadthis  " id="mtcars-btn"><i class="bi bi-download"></i> Rmd </button></a></li>
+<li>Filled in version: <a href="../weeks/class/CA_19_universality_continuous_RVs.pdf">Filled in code</a></li>
+</ul></li>
+</ul>
+
+
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+      <div class="nav-footer-center">- <img src="../img/middlebury.png" class="img-fluid" style="width:10.0%" alt="Logo image"></div>
+  </div>
+</footer>
+
+
+
+</body></html>

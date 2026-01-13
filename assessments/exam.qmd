@@ -1,0 +1,101 @@
+---
+title: "Assessments"
+sidebar: false
+toc: true
+---
+
+## Final
+
+**Details**
+
+-   Thursday, May 15 from 7-10pm in WNS 105 (our usual room)
+-   Same distribution sheet as before will be provided to you!
+-   The final is cumulative, with emphasis on material from last third of the course
+-   You are allowed a one double-sided note sheet (8.5x11 inches). Once again, no worked-out examples allowed!
+-   **If it is to your advantage, your score on the final exam will replace the lowest score among {Quiz 1, Midterm, Quiz 2}**
+
+### Topics
+
+-   **Counting**: multiplication rule, permutations and combinations, sampling with versus without replacement when order does/doesn't matter
+-   **Basic probability**: sample spaces, events, naive probability, axioms, unions, intersections, complements, inclusion-exclusion, independence of events
+-   **Conditional probability**: definition and meaning, Bayes' rule and theorem, LoTP, conditional independence
+-   **Random variables**: definitions and interpretations, stories, discrete vs continuous, distributions, PMFs, CDFs, PDFs, MGFs, function of RV, indicators, memoryless of Exponential, universality of Uniform, Poisson approximation, location-scale transform of Normal and Uniform
+    -   Feeling comfortable with all our named distributions
+-   **Moments**: expectation and its properties, fundamental bridge, variance and its properties, standard deviation, covariance and correlation, LoTUS, moments from MGFs
+-   **Joint distributions**: joint, conditional, and marginal distributions, independence, change of variables, finding dist. of min/max
+-   **Conditional expectation**: definition and meaning, properties, Adam's and Eve's Laws
+-   **Inequalities and theorems**: Markov, Chebshev, WLLN, CLT
+-   **Connections between distributions** and their derivations: e.g. sum of independent Normals, sum of independent Poissons, sum of Exponentials, Bank-Post office, chicken-egg, etc.
+
+### Practice problems
+
+-   Many practice problems posted [here](final_practice_problems.pdf)!
+    -   I suggest first reviewing your notes before attempting these problems!
+
+    -   ::: {style="color: purple"}
+        These problems are not exhaustive!!
+        :::
+
+------------------------------------------------------------------------
+
+## Quiz 2
+
+Friday, 4/25 **in class (8:30am start)**.
+
+-   Content after midterm through Wednesday 4/16 is fair game (continuous stuff through joint distributions and 2D-LoTUS)
+
+-   Expect it to be similar to Quiz 1 in length/difficulty
+
+-   You will be provided [this distribution sheet](distributions_310.pdf) containing all the named distributions we've learned thus far. There are some distributions that we have not yet learned as well.
+
+    -   Note, it does not contain MGFs!
+
+-   You are allowed one, single-sided note sheet (8.5x11 inches)
+
+    -   Your note sheet cannot include any worked out examples/derivations
+
+-   Practice problems [here](quiz2_practice_probs.pdf)
+
+## **Midterm**
+
+### What and when
+
+-   Thursday, April 3 from 7:00-9:00pm in WNS 105
+-   Content through March 26 is fair game (emphasis on content from Week 3 onward)
+-   You are allowed one, single-sided note sheet (8.5x11 inches)
+    -   Your note sheet cannot include any worked out examples/derivations
+    -   I **highly recommend** you write out the PMFs (including supports), means, and variances for our named distributions. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.
+-   No homework due Week 7, but there will be a problem set due the following Tuesday (4/8)
+
+### Study tips
+
+-   Review notes and homework, do the extra practice problems associated with each class
+-   Extra practice problems [here](midterm_practice_probs.pdf) (solutions shared on Canvas)
+-   Come to office hours!!
+-   My personal working strategy:
+    1.  First review your notes
+    2.  Make a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you
+    3.  Make a new note sheet
+    4.  Repeat as necessary
+
+------------------------------------------------------------------------
+
+## **Quiz 1**
+
+Friday, 2/28 from 2:30-3:30pm in WNS 101.
+
+-   Content through end of Week 2 is fair game (but no coding will be on the quiz)
+
+-   No note sheets allowed
+
+-   Study tips:
+
+    -   Review notes and homework, do the extra practice problems associated with each class
+
+    -   Really ask yourself if you understand each step of a solution (this is humbling, but oh so important)
+
+    -   Seek assistance *after* trying problems on your own. Part of the battle is learning for yourself how to translate problem set-up into mathematical notation.
+
+-   Extra practice problems [here](quiz1_practice_probs.pdf) (solutions posted sometime early Thursday)
+
+    -   2/27: Note, problem 7 on the Quiz 1 practice problems had a poor set-up. I've updated the problem!

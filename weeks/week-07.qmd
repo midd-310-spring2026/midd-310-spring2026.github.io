@@ -1,0 +1,66 @@
+---
+title: "Week 07"
+---
+
+::: {style="color: #F66D7A"}
+### Monday (3/31)
+:::
+
+**Topics**
+
+-   Normal distribution
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_17.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_17.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Wednesday (4/02)
+:::
+
+**Topics**
+
+-   Exponential
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   [Daily assignment](daily/DA_18.pdf)
+
+**Class activity**
+
+-   [Class activity](class/CA_18.pdf)
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Friday (4/04)
+:::
+
+**Please bring laptops to class!**
+
+**Topics**
+
+-   Universality of the Uniform
+-   Continuous RVs in `R`
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 7:45am
+
+-   None!
+
+**Class activity**
+
+-   Live code posted after class
+    -   `.Rmd` template for in-class activity: {{< downloadthis class/CA_19_universality_continuous_RVs.Rmd dname="universality" label="Rmd" id=mtcars-btn >}}
+    -   Filled in version: [Filled in code](class/CA_19_universality_continuous_RVs.qmd)

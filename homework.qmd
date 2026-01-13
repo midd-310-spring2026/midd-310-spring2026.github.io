@@ -1,0 +1,30 @@
+---
+title: "Homework"
+sidebar: false
+---
+
+Note: problem sets will be updated with new questions following each class. Completed homework should be submitted to Canvas unless otherwise noted.
+
+-   [Problem Set 1](weeks/hw/310_hw1.pdf): covers material from 2/12-2/14
+    -   Due: 2/18 at 11:59pm
+    -   Good idea to read through Section 1.4 of textbook in entirety for examples!
+-   [Problem Set 2](weeks/hw/310_hw2.pdf): covers material from 2/17-2/21
+    -   Due 2/25 at 11:59pm
+    -   `.Rmd` file for Wednesday problems: {{< downloadthis weeks/hw/310_hw2_R.Rmd dname="310_hw2_R" label="hw2_R" id=mtcars-btn >}}
+    -   Please submit both your written answers and the knitted HTML! You can do this by uploading several files during your Canvas submission, or doing two separate submissions.
+-   [Problem Set 3](weeks/hw/310_hw3.pdf): covers material from 2/24-2/28
+    -   Due 3/4 at 11:59pm
+-   [Problem Set 4](weeks/hw/310_hw4.pdf): covers material from 3/3-3/7
+    -   Due 3/11 at 11:59pm
+-   [Problem Set 5](weeks/hw/310_hw5.pdf): covers material from 3/10-3/13 and 3/24-3/26
+    -   Due Saturday 3/29 at 11:59pm (note atypical due date)
+-   [Problem Set 6](weeks/hw/310_hw6.pdf): covers material from 3/28-4/04
+    -   Due 4/09 at 11:59pm (note atypical due date)
+-   [Problem Set 7](weeks/hw/310_hw7.pdf): covers material from 4/07-4/09
+    -   Due 4/15 at 11:59pm
+-   [Problem Set 8](weeks/hw/310_hw8.pdf): covers material from 4/14-4/18
+    -   Due 4/22 at 11:59pm
+-   [Problem Set 9](weeks/hw/310_hw9.pdf): covers material from 4/21-4/23
+    -   Due 4/29 at 11:59pm
+-   [Problem Set 10](weeks/hw/310_hw10.pdf): covers material from 4/28-5/02 (last problem set!)
+    -   Due 5/06 at 11:59pm
