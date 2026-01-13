@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Probability",
     "section": "",
-    "text": "Welcome to the website for Middlebury College’s Spring 2025 MATH/STAT 310. On this website you will find the course syllabus, schedule, and assignments. The website is frequently updated during the semester, so please make a habit of refreshing the page. The icons at the top right will link to the online version of the textbook and Canvas."
+    "text": "Welcome to the website for Middlebury College’s Spring 2026 MATH/STAT 310. On this website you will find the course syllabus, schedule, and assignments. The website is frequently updated during the semester, so please make a habit of refreshing the page. The icons at the top right will link to the online version of the textbook and Canvas."
   },
   {
     "objectID": "about.html",
@@ -18,7 +18,7 @@
     "href": "index.html#course-details",
     "title": "Probability",
     "section": "Course Details",
-    "text": "Course Details\nInstructor: Becky Tang\n\nOffice: WNS 214\nEmail: btang@middlebury.edu\n\nMeeting times: MWF 8:40-9:30am in WNS 105\nOffice hours: MT 3-4pm, F 11am-12pm (outside my office)\nSyllabus (most recent update: 02/07/25)"
+    "text": "Course Details\nInstructor: Becky Tang\n\nOffice: WNS 214\nEmail: btang@middlebury.edu\n\nMeeting times: MWF 1:10-2:00pm in WNS 011\nOffice hours: TBD\nSyllabus (most recent update: 02/07/25)"
   },
   {
     "objectID": "schedule.html#week-2",
@@ -102,7 +102,7 @@
     "href": "index.html#major-announcements",
     "title": "Probability",
     "section": "Major Announcements",
-    "text": "Major Announcements\n\nFinal exam is Thursday, 5/15 from 7-10pm in WNS 105.\nOffice hours during finals week:\n\nWednesday 5/14: 11am-12pm, 2-4pm\nThursday 5/15: 12:30-2pm"
+    "text": "Major Announcements\n\nWelcome!"
   },
   {
     "objectID": "weeks/week-04.html",
@@ -256,14 +256,14 @@
     "href": "weeks/class/intro_R_simulations.html",
     "title": "Intro to R and Simulations",
     "section": "",
-    "text": "R respects PEMDAS:\n\n\n\n\n\nBooleans/logicals can be formed with (in)equality symbols:\n\n\n\n\n\n\nStoring/saving values into variables is achieved by using the syntax <variable name> <- <value>. Note that the variable name cannot begin with a number! The result of a stored variable is not displayed to the user. Type out the variable name after storing to explicitly show the values.\n\n\n\n\n\n\nCreate vectors of values (i.e. a list of values) using the concatenate c() function:\n\n\n\nThe syntax a:b creates a sequence of integers from a to b.\n\n\n\nR is vectorized language, so it operates element-wise in vectors. Also, under the hood, booleans/logicals TRUE/FALSE are treated as 1/0:"
+    "text": "R respects PEMDAS:\n\n\nBooleans/logicals can be formed with (in)equality symbols:\n\n\n\nStoring/saving values into variables is achieved by using the syntax &lt;variable name&gt; &lt;- &lt;value&gt;. Note that the variable name cannot begin with a number! The result of a stored variable is not displayed to the user. Type out the variable name after storing to explicitly show the values.\n\n\n\nCreate vectors of values (i.e. a list of values) using the concatenate c() function:\nThe syntax a:b creates a sequence of integers from a to b.\nR is vectorized language, so it operates element-wise in vectors. Also, under the hood, booleans/logicals TRUE/FALSE are treated as 1/0:"
   },
   {
     "objectID": "weeks/class/intro_R_simulations.html#functions",
     "href": "weeks/class/intro_R_simulations.html#functions",
     "title": "Intro to R and Simulations",
     "section": "Functions",
-    "text": "Functions\nA lot of the commands we have been working with are functions. You can tell a command is a function if it has parentheses (e.g. sum() and c()). A function usually takes in some argument(s) as input and returns something back as output. We can write custom functions using the function function(). We need to specify the name of the function, what it expects as input, as well as what to output.\n\nBirthday problem, generalized\nSuppose a group of \\(k\\) people each choose a number randomly with replacement from a list of \\(n\\) distinct numbers. The probability of at least one match in the group is 1 minus the probability of no matches:\n\\[1 - \\binom{n}{k} \\frac{k!}{n^k}\\]\nWe can write this as a function in R:\n\n\n\nNote that the function name is prob_match, and the arguments/inputs are called n and k. The output is the probability of at least one match for the specified values of n and k. We can now use this function. For example, the probability of at least one match among 3 people choosing a number between 1 and 40 is:"
+    "text": "Functions\nA lot of the commands we have been working with are functions. You can tell a command is a function if it has parentheses (e.g. sum() and c()). A function usually takes in some argument(s) as input and returns something back as output. We can write custom functions using the function function(). We need to specify the name of the function, what it expects as input, as well as what to output.\n\nBirthday problem, generalized\nSuppose a group of \\(k\\) people each choose a number randomly with replacement from a list of \\(n\\) distinct numbers. The probability of at least one match in the group is 1 minus the probability of no matches:\n\\[1 - \\binom{n}{k} \\frac{k!}{n^k}\\]\nWe can write this as a function in R:\nNote that the function name is prob_match, and the arguments/inputs are called n and k. The output is the probability of at least one match for the specified values of n and k. We can now use this function. For example, the probability of at least one match among 3 people choosing a number between 1 and 40 is:"
   },
   {
     "objectID": "weeks/class/intro_R_simulations.html#for-looping",
@@ -291,28 +291,28 @@
     "href": "weeks/class/intro_R_simulations.html#approximating-probabilities",
     "title": "Intro to R and Simulations",
     "section": "Approximating probabilities",
-    "text": "Approximating probabilities\nIn the following, simulation flipping a fair coin once:\n\n\n\nWe can approximate probabilities by counting up repeatedly simulating an experiment, counting up how many times a favorable outcome occurred, and dividing by the total number of experiments we did. This is easily done using the replicate() function:"
+    "text": "Approximating probabilities\nIn the following, simulation flipping a fair coin once:\nWe can approximate probabilities by counting up repeatedly simulating an experiment, counting up how many times a favorable outcome occurred, and dividing by the total number of experiments we did. This is easily done using the replicate() function:"
   },
   {
     "objectID": "weeks/class/CA_04_solns.html",
     "href": "weeks/class/CA_04_solns.html",
     "title": "Class Activity 04",
     "section": "",
-    "text": "n <- 5\nsum(sample(1:n, size = n, replace = F) == 1:n)\n\n[1] 1\n\n\n\n\n\n\nmean(replicate(1000,sum(sample(1:n, size = n, replace = F) == 1:n) > 0))\n\n[1] 0.655\n\n\n\n\n\n\nprob_match <- function(n, B){\n  mean(replicate(B, sum(sample(1:n, size = n, replace = F) == 1:n) > 0))\n}\n\n\n\n\n\nn_vec <- 2:50\np <- rep(NA, length(n_vec))\nfor(i in 1:length(n_vec)){\n  p[i] <- prob_match(n_vec[i], 1000) \n}\n\n\n\n\n\nplot(n_vec, p)\nabline(h = 1 - exp(-1))"
+    "text": "n &lt;- 5\nsum(sample(1:n, size = n, replace = F) == 1:n)\n\n[1] 0\n\n\n\n\n\n\nmean(replicate(1000,sum(sample(1:n, size = n, replace = F) == 1:n) &gt; 0))\n\n[1] 0.647\n\n\n\n\n\n\nprob_match &lt;- function(n, B){\n  mean(replicate(B, sum(sample(1:n, size = n, replace = F) == 1:n) &gt; 0))\n}\n\n\n\n\n\nn_vec &lt;- 2:50\np &lt;- rep(NA, length(n_vec))\nfor(i in 1:length(n_vec)){\n  p[i] &lt;- prob_match(n_vec[i], 1000) \n}\n\n\n\n\n\nplot(n_vec, p)\nabline(h = 1 - exp(-1))"
   },
   {
     "objectID": "weeks/class/CA_04_solns.html#problem-2",
     "href": "weeks/class/CA_04_solns.html#problem-2",
     "title": "Class Activity 04",
     "section": "Problem 2",
-    "text": "Problem 2\n\nPart a\n\nk <- 25\n1 - (364/365)^(k-1)\n\n[1] 0.06372277\n\n\n\n\nPart b\n\nB <- 10000\nsum(replicate(B, sum(sample(1:365, size = k - 1, replace = T) == 1) >= 1))/B\n\n[1] 0.0656\n\n\n\n\nPart c\nType here!"
+    "text": "Problem 2\n\nPart a\n\nk &lt;- 25\n1 - (364/365)^(k-1)\n\n[1] 0.06372277\n\n\n\n\nPart b\n\nB &lt;- 10000\nsum(replicate(B, sum(sample(1:365, size = k - 1, replace = T) == 1) &gt;= 1))/B\n\n[1] 0.0679\n\n\n\n\nPart c\nType here!"
   },
   {
     "objectID": "weeks/class/CA_04.html#problem-2",
     "href": "weeks/class/CA_04.html#problem-2",
     "title": "Class Activity 04",
     "section": "Problem 2",
-    "text": "Problem 2\n\nPart a\n\n\n\n\n\nPart b\n\n\n\n\n\nPart c\nType here!"
+    "text": "Problem 2\n\nPart a\n\n\nPart b\n\n\nPart c\nType here!"
   },
   {
     "objectID": "weeks/hw/310_hw2_R.html",
@@ -453,5 +453,54 @@
     "title": "Assessments",
     "section": "Quiz 2",
     "text": "Quiz 2\nFriday, 4/25 in class (8:30am start).\n\nContent after midterm through Wednesday 4/16 is fair game (continuous stuff through joint distributions and 2D-LoTUS)\nExpect it to be similar to Quiz 1 in length/difficulty\nYou will be provided this distribution sheet containing all the named distributions we’ve learned thus far. There are some distributions that we have not yet learned as well.\n\nNote, it does not contain MGFs!\n\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\n\nPractice problems here"
+  },
+  {
+    "objectID": "weeks/class/CA_32_LLN.html",
+    "href": "weeks/class/CA_32_LLN.html",
+    "title": "Law of Large Numbers",
+    "section": "",
+    "text": "\\(X_{1}, X_{2},\\ldots\\) are IID \\(\\text{Bern}(1/4)\\) random variables, where \\(X_{i}\\) is indicator of Heads. Then \\(\\bar{X}_{n}\\) is the proportion of Heads in our \\(n\\) tosses.\nThe WLLN tells us that as \\(n\\) increases, then for any \\(\\epsilon &gt; 0\\), the probability that \\(\\bar{X}_{n}\\) is more than \\(\\epsilon\\) away from its mean of \\(1/4\\) can be made arbitrarily small.\nIn the following plot, we simulate 5 different running means, represented by the colors of the lines. The dashed horizontal bands represent varying \\(\\epsilon\\)."
+  },
+  {
+    "objectID": "weeks/class/CA_32_LLN.html#estimating-beta-probability",
+    "href": "weeks/class/CA_32_LLN.html#estimating-beta-probability",
+    "title": "Law of Large Numbers",
+    "section": "Estimating Beta probability",
+    "text": "Estimating Beta probability\nSuppose \\(X \\sim \\text{Beta}(3, 9)\\) and I want to approximate \\(P(0.1 &lt; X &lt; 0.2)\\) (i.e. the shaded area below). I know I can evaluate the function/PDF of \\(X\\) using dbeta() or by hand, but suppose I do not have access to pbeta() for probabilities.\n\n\nWarning: Removed 90 rows containing missing values or values outside the scale range\n(`geom_area()`).\n\n\n\n\n\n\n\n\n\nMonte Carlo will help us! We have to come up with a bounding region to sample uniform points from. Well, we want \\(x \\in (0.1, 0.2)\\). For the y-axis, we see that any \\(c\\) greater than roughly 3.25 will do the trick. We will use \\(c = 4\\). Our bounding rectangle is depicted above.\n\n# simulate uniformly within bounding rectangle\nset.seed(1)\nB &lt;- 5000\nx &lt;- runif(B, 0.1, 0.2)\ny &lt;- runif(B, 0, 4)\n\n# obtain proportion that fall into area under curve\nunder &lt;- mean(y &lt;= dbeta(x, 3, 9))\n\n# multiply by bounding rectangle area \nmc_approx &lt;- under * 4 * (0.2 - 0.1)\n\nSo our Monte Carlo approximation to the integral is 0.29024.\nSuppose we suddenly have access to the CDF function pbeta()! Let’s compare our MC approximation to the truth:\n\npbeta(0.2, 3, 9) - pbeta(0.1, 3, 9)\n\n[1] 0.2930366"
+  },
+  {
+    "objectID": "weeks/class/CA_32_LLN.html#estimating-pi",
+    "href": "weeks/class/CA_32_LLN.html#estimating-pi",
+    "title": "Law of Large Numbers",
+    "section": "Estimating \\(pi\\)",
+    "text": "Estimating \\(pi\\)\n\nset.seed(10)\n\n# choose area of circle/dart board\nr &lt;- 3\n\n# sample uniformly within square\nn &lt;- 10000\nx &lt;- runif(n, -r, r)\ny &lt;- runif(n, -r, r)\n\n# determine which points are in the circle\nin_circle &lt;- x^2 + y^2 &lt;= r^2\n\n# mc approximation\nmc_pi &lt;- 4 * sum(in_circle)/n\n\n\n\n\n\n\n\n\n\n\nOur estimate of \\(\\pi\\) is 3.1432, which is pretty good!"
+  },
+  {
+    "objectID": "weeks/class/birthday_problem_plot.html",
+    "href": "weeks/class/birthday_problem_plot.html",
+    "title": "Birthday problem",
+    "section": "",
+    "text": "Suppose we have \\(k\\) people in a room. Define event \\(A\\) as the event at least two people in the room share the same birthday. What is \\(P(A)\\)?\nAssumptions:\n\n“same birthday” here means same month and day\nWe don’t have twins/triplets/etc.\nNo one born on February 29 (leap year)\nEach day of the year is equally likely to be a birthday"
+  },
+  {
+    "objectID": "weeks/class/intro_R_simulations.html#r-is-a-calculator",
+    "href": "weeks/class/intro_R_simulations.html#r-is-a-calculator",
+    "title": "Intro to R and Simulations",
+    "section": "",
+    "text": "R respects PEMDAS:\n\n\nBooleans/logicals can be formed with (in)equality symbols:\n\n\n\nStoring/saving values into variables is achieved by using the syntax &lt;variable name&gt; &lt;- &lt;value&gt;. Note that the variable name cannot begin with a number! The result of a stored variable is not displayed to the user. Type out the variable name after storing to explicitly show the values.\n\n\n\nCreate vectors of values (i.e. a list of values) using the concatenate c() function:\nThe syntax a:b creates a sequence of integers from a to b.\nR is vectorized language, so it operates element-wise in vectors. Also, under the hood, booleans/logicals TRUE/FALSE are treated as 1/0:"
+  },
+  {
+    "objectID": "weeks/class/CA_33_CLT.html",
+    "href": "weeks/class/CA_33_CLT.html",
+    "title": "Central Limit Theorem",
+    "section": "",
+    "text": "Coin flips\n\\(X_{1}, X_{2},\\ldots\\) are IID \\(\\text{Bern}(1/4)\\) random variables, where \\(X_{i}\\) is indicator of Heads. Then \\(\\bar{X}_{n}\\) is the proportion of Heads in our \\(n\\) tosses.\nWe will see the CLT approximation to \\(\\bar{X}_{n}\\) and \\(\\sum_{i=1}^{n} X_{i}\\) as \\(n\\) increases from 5 through 500. Remember, CLT tells us that\n\\[\n\\bar{X}_{n} \\overset{\\cdot}{\\sim} N\\left(0.25, \\frac{0.25(0.75)}{n}\\right) \\qquad \\text{ and } \\qquad  \\sum_{i=1}^{n} X_{i} \\overset{\\cdot}{\\sim} N\\left(0.25 n, 0.25(0.75)n \\right)\n\\]"
+  },
+  {
+    "objectID": "weeks/class/CA_04_solns.html#problem-1",
+    "href": "weeks/class/CA_04_solns.html#problem-1",
+    "title": "Class Activity 04",
+    "section": "",
+    "text": "n &lt;- 5\nsum(sample(1:n, size = n, replace = F) == 1:n)\n\n[1] 0\n\n\n\n\n\n\nmean(replicate(1000,sum(sample(1:n, size = n, replace = F) == 1:n) &gt; 0))\n\n[1] 0.647\n\n\n\n\n\n\nprob_match &lt;- function(n, B){\n  mean(replicate(B, sum(sample(1:n, size = n, replace = F) == 1:n) &gt; 0))\n}\n\n\n\n\n\nn_vec &lt;- 2:50\np &lt;- rep(NA, length(n_vec))\nfor(i in 1:length(n_vec)){\n  p[i] &lt;- prob_match(n_vec[i], 1000) \n}\n\n\n\n\n\nplot(n_vec, p)\nabline(h = 1 - exp(-1))"
   }
 ]

@@ -3,14 +3,11 @@ title: "Probability"
 sidebar: false
 ---
 
-Welcome to the website for Middlebury College's Spring 2025 MATH/STAT 310. On this website you will find the course syllabus, schedule, and assignments. The website is frequently updated during the semester, so please make a habit of refreshing the page. The icons at the top right will link to the online version of the textbook and Canvas.
+Welcome to the website for Middlebury College's Spring 2026 MATH/STAT 310. On this website you will find the course syllabus, schedule, and assignments. The website is frequently updated during the semester, so please make a habit of refreshing the page. The icons at the top right will link to the online version of the textbook and Canvas.
 
 ## Major Announcements
 
--   Final exam is Thursday, 5/15 from 7-10pm in WNS 105.
--   Office hours during finals week:
-    -   Wednesday 5/14: 11am-12pm, 2-4pm
-    -   Thursday 5/15: 12:30-2pm
+-   Welcome!
 
 ## Course Details
 
@@ -19,8 +16,8 @@ Instructor: Becky Tang
 -   Office: WNS 214
 -   Email: btang\@middlebury.edu
 
-Meeting times: MWF 8:40-9:30am in WNS 105
+Meeting times: MWF 1:10-2:00pm in WNS 011
 
-Office hours: MT 3-4pm, F 11am-12pm (outside my office)
+Office hours: TBD
 
-[Syllabus](310_syllabus.pdf) (most recent update: 02/07/25)
+Syllabus (most recent update: 02/07/25)
