@@ -3,7 +3,7 @@ title: "Week 01"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (2/10)
+### Monday (2/09)
 :::
 
 **Topics**
@@ -14,16 +14,16 @@ title: "Week 01"
 **Daily assignment**
 
 -   Review syllabus
--   Complete the [pre-class survey](https://docs.google.com/forms/d/e/1FAIpQLScD7shTtq2_DGuVyQO-7mnpb5hVN53GphykmFPPj9dW8Bul3g/viewform?usp=sharing) if you haven't already
+-   Complete the pre-class survey if you haven't already
 
 **Class activity**
 
--   [Discussion questions](class/CA_00.pdf)
+-   Discussion questions
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (2/12)
+### Wednesday (2/11)
 :::
 
 **Topics**
@@ -33,9 +33,9 @@ title: "Week 01"
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_01.pdf)
+-   Daily assignment
 
 **Class material**
 
@@ -44,7 +44,7 @@ To be completed and submitted to Canvas by 7:45am
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (2/14)
+### Friday (2/13)
 :::
 
 **Topics**
@@ -53,11 +53,11 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_02.pdf)
+-   Daily assignment
 
 **Class material**
 
--   Birthday problem handout ([blank](class/birthday_problem_plot.qmd) and [filled-in](class/birthday_problem_complete.pdf) version)
--   [Practice problems](class/CA_02.pdf)
+-   Birthday problem handout (blank and filled-in version)
+-   Practice problems
