@@ -18,6 +18,8 @@ Instructor: Becky Tang
 
 Meeting times: MWF 1:10-2:00pm in WNS 011
 
-Office hours: TBD
+Office hours: M 2:30-4:00pm, T 3:30-4:30pm, R 11:00am-12:00pm
 
-Syllabus (most recent update: 02/07/26)
+TA hours: T 7:00-9:00pm (location TBD)
+
+[Syllabus](syllabus/stat310_syllabus.pdf) (most recent update: 02/02/26)
