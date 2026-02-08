@@ -19,7 +19,7 @@ title: "Week 01"
 
 **Class activity**
 
--   Discussion questions
+-   [Discussion questions](class/CA_00.pdf)
 
 ------------------------------------------------------------------------
 
@@ -39,7 +39,7 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class material**
 
--   None
+-   TBD
 
 ------------------------------------------------------------------------
 
