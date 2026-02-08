@@ -10,11 +10,12 @@ title: "Week 01"
 
 -   Welcome!
 -   Course logistics
+-   Some foundations
 
 **Daily assignment**
 
 -   Review syllabus
--   Complete the pre-class survey if you haven't already
+-   Complete the [pre-class survey](https://forms.gle/7Zx6C1gR1m4h87qm6) if you haven't already
 
 **Class activity**
 
@@ -28,14 +29,13 @@ title: "Week 01"
 
 **Topics**
 
--   Foundations
 -   Set theory
 
 **Daily assignment**
 
 To be completed and submitted to Canvas by 9:00am
 
--   Daily assignment
+-   [Daily assignment](daily/DA_01.pdf)
 
 **Class material**
 
@@ -49,6 +49,7 @@ To be completed and submitted to Canvas by 9:00am
 
 **Topics**
 
+-   Naive probability
 -   Counting methods
 
 **Daily assignment**
