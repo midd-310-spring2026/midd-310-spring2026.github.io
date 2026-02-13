@@ -50,6 +50,7 @@ To be completed and submitted to Canvas by 9:00am
 **Topics**
 
 -   Naive probability
+-   Birthday problem!
 -   Counting methods
 
 **Daily assignment**
@@ -60,5 +61,4 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class material**
 
--   Birthday problem handout (blank and filled-in version)
--   Practice problems
+-   Counting [practice problems](class/CA_02.pdf)

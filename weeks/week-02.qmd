@@ -3,7 +3,7 @@ title: "Week 02"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (2/17)
+### Monday (2/16)
 :::
 
 **Topics**
@@ -12,18 +12,18 @@ title: "Week 02"
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_03.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Practice problems](class/CA_03.pdf)
+-   Practice problems
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (2/19)
+### Wednesday (2/18)
 :::
 
 **Topics**
@@ -32,26 +32,24 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   If you do not already have R and RStudio downloaded, then follow these [instructions](daily/installation_instructions.qmd) to install. Be sure to install BOTH R and RStudio (in that order)!
--   [Daily assignment](daily/DA_04.pdf)
+-   If you do not already have R and RStudio downloaded, then follow these [instructions](daily/installation_instructions.qmd) to install. Be sure to install BOTH R and RStudio (in that order)! Or come to office hours for help!
+-   Daily assignment
     -   `.Rmd` file for assignment: {{< downloadthis daily/DA_04.Rmd dname="DA_04" label="DA_04" id=mtcars-btn >}}
 
 **Class activity**
 
 -   Covering some basics of coding in `R`
     -   `.Rmd` file: {{< downloadthis class/intro_R_simulations.Rmd dname="intro_R" label="intro_R" id=mtcars-btn >}}
-    -   Filled in version posted [here](class/intro_R_filled.pdf)
--   [Extra problems](class/CA_04.pdf) and associated `.Rmd` file: {{< downloadthis class/CA_04.Rmd dname="CA_04" label="CA_04" id=mtcars-btn >}}
+    -   Filled in version posted here
+-   Extra problems and associated `.Rmd` file: {{< downloadthis class/CA_04.Rmd dname="CA_04" label="CA_04" id=mtcars-btn >}}
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (2/21)
+### Friday (2/20)
 :::
-
-Content through today is fair game for Quiz 1!
 
 **Topics**
 
@@ -61,10 +59,10 @@ Content through today is fair game for Quiz 1!
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_05.pdf) (note this video is longer, so plan accordingly)
+-   Daily assignment
 
 **Class activity**
 
--   [Practice problems](class/CA_05.pdf)
+-   Practice problems
