@@ -1,6 +1,8 @@
 ---
 title: "Birthday problem"
 format: pdf
+editor_options: 
+  chunk_output_type: console
 ---
 
 \vspace{-2cm}
@@ -27,5 +29,9 @@ data.frame(k = 1:60, probability = prob) |>
   ggplot(aes(x = k, y = probability)) + 
   geom_line() +
   scale_x_continuous(n.breaks = 10) +
-  ggtitle("Probability of birthday match")
+  ggtitle("Probability of at least one birthday match") + 
+  geom_hline(yintercept = 0.5, col = "orange", linetype = "dashed") +
+  labs(x = "n") +
+  theme(axis.text = element_text(size = 20),
+        axis.title = element_text(size = 20))
 ```
