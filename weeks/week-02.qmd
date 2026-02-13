@@ -14,7 +14,7 @@ title: "Week 02"
 
 To be completed and submitted to Canvas by 9:00am
 
--   Daily assignment
+-   [Daily assignment](daily/DA_03.pdf)
 
 **Class activity**
 
