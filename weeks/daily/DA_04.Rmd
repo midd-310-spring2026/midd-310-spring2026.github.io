@@ -11,7 +11,7 @@ output: html_document
 
 ```
 
-**Answer:**
+**Answer:** Delete this text and type you answer here!
 
 6.  What are the differences between the two lines of code that both use the `sample()` function?
 
@@ -19,7 +19,7 @@ output: html_document
 
 ```
 
-**Answer:**
+**Answer:** Delete this text and type you answer here!
 
 7.  What is this line of coding?
 
@@ -27,7 +27,7 @@ output: html_document
 
 ```
 
-**Answer:**
+**Answer:** Delete this text and type you answer here!
 
 8.  What is this line of code doing?
 
@@ -35,7 +35,7 @@ output: html_document
 
 ```
 
-**Answer:**
+**Answer:** Delete this text and type you answer here!
 
 9.  Optional: any questions?
 
