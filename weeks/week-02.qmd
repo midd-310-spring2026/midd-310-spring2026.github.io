@@ -44,6 +44,7 @@ To be completed and submitted to Canvas by 9:00am
     -   `.Rmd` file: {{< downloadthis class/intro_R_simulations.Rmd dname="intro_R" label="intro_R" id=mtcars-btn >}}
     -   Filled in version posted here
 -   Extra problems and associated `.Rmd` file: TBD
+-   Inclusion-Exclusion [practice problem](class/CA_03.pdf) from yesterday
 
 ------------------------------------------------------------------------
 

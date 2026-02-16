@@ -81,7 +81,7 @@
     "href": "weeks/week-02.html",
     "title": "Week 02",
     "section": "",
-    "text": "Monday (2/16)\n\nTopics\n\nProbability axioms\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nInclusion-Exclusion practice problem\n\n\n\nWednesday (2/18)\n\nTopics\n\nR and RStudio\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nIf you do not already have R and RStudio downloaded, then follow these instructions to install. Be sure to install BOTH R and RStudio (in that order)! Or come to office hours for help!\nDaily assignment\n\n.Rmd file for assignment:  DA_04 \n\n\nClass activity\n\nCovering some basics of coding in R\n\n.Rmd file:  intro_R \nFilled in version posted here\n\nExtra problems and associated .Rmd file: TBD\n\n\n\nFriday (2/20)\n\nTopics\n\nConditional probability\nBayes rule\nLaw of Total Probability\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nPractice problems",
+    "text": "Monday (2/16)\n\nTopics\n\nProbability axioms\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nInclusion-Exclusion practice problem\n\n\n\nWednesday (2/18)\n\nTopics\n\nR and RStudio\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nIf you do not already have R and RStudio downloaded, then follow these instructions to install. Be sure to install BOTH R and RStudio (in that order)! Or come to office hours for help!\nDaily assignment\n\n.Rmd file for assignment:  DA_04 \n\n\nClass activity\n\nCovering some basics of coding in R\n\n.Rmd file:  intro_R \nFilled in version posted here\n\nExtra problems and associated .Rmd file: TBD\nInclusion-Exclusion practice problem from yesterday\n\n\n\nFriday (2/20)\n\nTopics\n\nConditional probability\nBayes rule\nLaw of Total Probability\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nPractice problems",
     "crumbs": [
       "Schedule",
       "Week 02"
@@ -106,14 +106,14 @@
     "href": "homework.html",
     "title": "Homework",
     "section": "",
-    "text": "Note: problem sets will be updated with new questions following each class. Completed homework should be submitted to Canvas unless otherwise noted.\n\nProblem Set 1: covers material from 2/09-2/13\n\nDue: 2/17 at 11:59pm"
+    "text": "Note: problem sets will be updated with new questions following each class. Completed homework should be submitted to Canvas unless otherwise noted.\n\nProblem Set 1: covers material from 2/09-2/13\n\nDue: 2/17 at 11:59pm\n\nProblem Set 2: covers material from 2/16-2/20\n\nDue: 2/14 at 11:59pm"
   },
   {
     "objectID": "index.html#major-announcements",
     "href": "index.html#major-announcements",
     "title": "Probability",
     "section": "Major Announcements",
-    "text": "Major Announcements\n\nProblem Set 1 fully posted"
+    "text": "Major Announcements\n\nNone!"
   },
   {
     "objectID": "weeks/week-04.html",
