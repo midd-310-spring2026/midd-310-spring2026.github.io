@@ -56,7 +56,7 @@
     "href": "weeks/week-01.html",
     "title": "Week 01",
     "section": "",
-    "text": "Monday (2/09)\n\nTopics\n\nWelcome!\nCourse logistics\nSome foundations\n\nDaily assignment\n\nReview syllabus\nComplete the pre-class survey if you haven’t already\n\nClass activity\n\nDiscussion questions\n\n\n\nWednesday (2/11)\n\nTopics\n\nSet theory\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass material\n\nSet theory practice problems\n\n\n\nFriday (2/13)\n\nTopics\n\nNaive probability\nBirthday problem!\nCounting methods\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment (a bit longer because of the examples, so please plan accordingly)\n\nClass material\n\nCounting practice problems (solutions posted later, but please try a few!!!)",
+    "text": "Monday (2/09)\n\nTopics\n\nWelcome!\nCourse logistics\nSome foundations\n\nDaily assignment\n\nReview syllabus\nComplete the pre-class survey if you haven’t already\n\nClass activity\n\nDiscussion questions\n\n\n\nWednesday (2/11)\n\nTopics\n\nSet theory\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass material\n\nSet theory practice problems\n\n\n\nFriday (2/13)\n\nTopics\n\nNaive probability\nBirthday problem!\nCounting methods\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment (a bit longer because of the examples, so please plan accordingly)\n\nClass material\n\nCounting practice problems (suggested solutions posted here, but please try a few without looking!!!)",
     "crumbs": [
       "Schedule",
       "Week 01"
@@ -260,7 +260,7 @@
     "href": "weeks/daily/DA_04.html",
     "title": "Daily Assignment 04",
     "section": "",
-    "text": "What is the last line of code doing?\n\nAnswer:\n\nWhat are the differences between the two lines of code that both use the sample() function?\n\nAnswer:\n\nWhat is this line of coding?\n\nAnswer:\n\nWhat is this line of code doing?\n\nAnswer:\n\nOptional: any questions?\n\nAnswer:"
+    "text": "What is the last line of code doing?\n\nAnswer: Delete this text and type you answer here!\n\nWhat are the differences between the two lines of code that both use the sample() function?\n\nAnswer: Delete this text and type you answer here!\n\nWhat is this line of coding?\n\nAnswer: Delete this text and type you answer here!\n\nWhat is this line of code doing?\n\nAnswer: Delete this text and type you answer here!\n\nOptional: any questions?\n\nAnswer:"
   },
   {
     "objectID": "weeks/class/intro_R_simulations.html",

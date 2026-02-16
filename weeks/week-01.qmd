@@ -61,4 +61,4 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class material**
 
--   Counting [practice problems](class/CA_02.pdf) (solutions posted later, but please try a few!!!)
+-   Counting [practice problems](class/CA_02.pdf) (suggested solutions posted [here](class/CA_02_solns.pdf), but please try a few without looking!!!)
