@@ -9,7 +9,7 @@
 <meta name="author" content="Your name">
 <meta name="dcterms.date" content="2026-02-18">
 
-<title>Class Activity 04 – MATH/STAT 310: Probability</title>
+<title>Intro to R and Simulations – MATH/STAT 310: Probability</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -21,41 +21,6 @@ ul.task-list li input[type="checkbox"] {
   width: 0.8em;
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
-}
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
 }
 </style>
 
@@ -107,6 +72,35 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -173,7 +167,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Class Activity 04</h1>
+<h1 class="title">Intro to R and Simulations</h1>
 </div>
 
 
@@ -202,40 +196,52 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </header>
 
 
-<section id="problem-1" class="level2">
-<h2 class="anchored" data-anchor-id="problem-1">Problem 1</h2>
-<section id="part-a" class="level3">
-<h3 class="anchored" data-anchor-id="part-a">Part a</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># define/create variable n that stores the number of cards</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># code to simulate one round of the game with n cards</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<section id="r-is-a-calculator" class="level1">
+<h1>R is a calculator</h1>
+<p>R respects PEMDAS:</p>
 </section>
-<section id="part-b" class="level3">
-<h3 class="anchored" data-anchor-id="part-b">Part b</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># use the replicate() function and store results into a variable called sims</span></span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># use sims to approximate the probability of winning</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<section id="r-objects" class="level1">
+<h1>R objects</h1>
+<section id="booleans" class="level3">
+<h3 class="anchored" data-anchor-id="booleans">Booleans</h3>
+<p>Booleans/logicals can be formed with (in)equality symbols:</p>
 </section>
-<section id="part-c" class="level3">
-<h3 class="anchored" data-anchor-id="part-c">Part c</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># create your function</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<section id="variables" class="level3">
+<h3 class="anchored" data-anchor-id="variables">Variables</h3>
+<p>Storing/saving values into variables is achieved by using the syntax <code>&lt;variable name&gt; &lt;- &lt;value&gt;</code>. Note that the variable name cannot begin with a number! The result of a stored variable is not displayed to the user. Type out the variable name after storing to explicitly show the values.</p>
 </section>
-<section id="part-d" class="level3">
-<h3 class="anchored" data-anchor-id="part-d">Part d</h3>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb4"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># call/use your function three times</span></span>
-<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb4-3"><a href="#cb4-3" aria-hidden="true" tabindex="-1"></a><span class="co"># write code to evaluate 1 - 1/e</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-</div>
+<section id="vectors" class="level3">
+<h3 class="anchored" data-anchor-id="vectors">Vectors</h3>
+<p>Create vectors of values (i.e.&nbsp;a list of values) using the concatenate <code>c()</code> function:</p>
+<p>The syntax <code>a:b</code> creates a sequence of integers from <code>a</code> to <code>b</code>.</p>
+<p>R is vectorized language, so it operates element-wise in vectors. Also, under the hood, booleans/logicals are treated as 1/0 for TRUE/FALSE</p>
+</section>
+</section>
+<section id="functions" class="level1">
+<h1>Functions</h1>
+<p>A lot of the commands we have been working with are <strong>functions</strong>. You can tell a command is a function if it has parentheses (e.g.&nbsp;<code>sum()</code> and <code>c()</code>). A function usually takes in some argument(s) as input and returns something back as output. We can write custom functions using the function <code>function()</code>. We need to specify the name of the function, what it expects as input, as well as what to return back to the user.</p>
+<section id="birthday-problem-generalized" class="level3">
+<h3 class="anchored" data-anchor-id="birthday-problem-generalized">Birthday problem, generalized</h3>
+<p>Suppose a group of <span class="math inline">\(k\)</span> people each choose a number randomly with replacement from a list of <span class="math inline">\(n\)</span> distinct numbers. If <span class="math inline">\(k \leq n\)</span>, the probability of at least one match in the group is 1 minus the probability of no matches:</p>
+<p><span class="math display">\[1 - \frac{n(n-1)(n-2)\cdots(n-k+1)}{n^k} = 1- \frac{n!}{(n-k)!n^k} =  1- \frac{n!k!}{k!(n-k)!n^k} = 1 -\binom{n}{k} \frac{k!}{n^k}\]</span> We can write this a function in R to obtain this probability for arbitrary <span class="math inline">\(n\)</span> and <span class="math inline">\(k\)</span>:</p>
+<p>Note that the function name is prob_match, and the arguments/inputs are called <code>n</code> and <code>k</code>. The output is the probability of at least one match for the specified values of <code>n</code> and <code>k</code>. We can now use this function! For example, the probability of at least one match among 23 people choosing a number between 1 and 365 is:</p>
+</section>
+</section>
+<section id="basic-plotting" class="level1">
+<h1>Basic plotting</h1>
+<p>We can plot one variable against another (e.g.&nbsp;input and output of a function) using the <code>plot()</code> function. The first argument is a vector of values for the x-axis variable (e.g.&nbsp;input), and the second argument is a vector for the y-axis variable (e.g.&nbsp;output).</p>
+<p>For example, we will plot probabilities of each least one birthday match in a room full of <span class="math inline">\(k = 1,\ldots, 50\)</span> people:</p>
+</section>
+<section id="sampling-and-simulating" class="level1">
+<h1>Sampling and simulating</h1>
+<p>The <code>sample()</code> function generates random values from a pool of values contained in a specific vector. You can twist many knobs to get sampling with or without replacement, uneven probabilities, and different sized samples.</p>
+</section>
+<section id="approximating-probabilities" class="level1">
+<h1>Approximating probabilities</h1>
+<p>In the following, we simulate flipping a fair coin once:</p>
+<p>We can approximate probabilities by repeatedly simulating an experiment, counting up how many times a favorable outcome occurred, and dividing by the total number of experiments we did. This is easily done using the <code>replicate()</code> function:</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

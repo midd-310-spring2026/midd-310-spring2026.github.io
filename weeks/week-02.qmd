@@ -41,10 +41,11 @@ To be completed and submitted to Canvas by 9:00am
 **Class activity**
 
 -   Covering some basics of coding in `R`
-    -   `.Rmd` file: {{< downloadthis class/intro_R_simulations.Rmd dname="intro_R" label="intro_R" id=mtcars-btn >}}
-    -   Filled in version posted here
--   Extra problems and associated `.Rmd` file: TBD
--   Inclusion-Exclusion [practice problem](class/CA_03.pdf) from yesterday
+    -   `.Rmd` file: {{< downloadthis class/R_intro.Rmd dname="R_intro" label="R_intro" id=mtcars-btn >}}. Drag into your new folder!
+    -   Filled in version posted [here](class/R_intro_filled.pdf)
+-   Choose your own adventure:
+    -   Extra [R problem](class/CA_04.pdf) and associated `.Rmd` file {{< downloadthis class/CA_04.Rmd dname="CA_04" label="CA_04" id=mtcars-btn >}}
+    -   Inclusion-Exclusion [practice problem](class/CA_03.pdf) from yesterday
 
 ------------------------------------------------------------------------
 

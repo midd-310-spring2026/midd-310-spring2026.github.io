@@ -1,7 +1,7 @@
 ---
 title: "Class Activity 04"
 author: "Your name"
-date: "2025-02-19"
+date: "2026-02-18"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -12,52 +12,34 @@ editor_options:
 ### Part a
 
 ```{r}
+# define/create variable n that stores the number of cards
 
+# code to simulate one round of the game with n cards
 
 ```
 
 ### Part b
 
 ```{r}
+# use the replicate() function and store results into a variable called sims
 
+# use sims to approximate the probability of winning
 
 ```
 
 ### Part c
 
 ```{r}
-
+# create your function
 
 ```
 
 ### Part d
 
 ```{r}
+# call/use your function three times
+
+# write code to evaluate 1 - 1/e
 
 ```
 
-### Part e
-
-```{r}
-
-```
-
-## Problem 2
-
-### Part a
-
-```{r}
-
-
-```
-
-### Part b
-
-```{r}
-
-
-```
-
-### Part c
-
-Type here!
