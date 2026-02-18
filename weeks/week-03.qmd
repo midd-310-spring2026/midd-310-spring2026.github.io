@@ -3,54 +3,7 @@ title: "Week 03"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (02/24)
-:::
-
-**Topics**
-
--   Conditional probabilities are probabilities
--   Independence
-
-**Daily assignment**
-
-To be completed and submitted to Canvas by 7:45am
-
--   [Daily assignment](daily/DA_06.pdf)
-
-**Class activity**
-
--   [People vs. Collins](class/people_v_collins.pdf)
--   [Practice problems](class/CA_06.pdf)
-
-------------------------------------------------------------------------
-
-::: {style="color: #F66D7A"}
-### Wednesday (02/26)
-:::
-
-**Topics**
-
--   Random variables (discrete)
--   PMF, Bernoulli, Binomial
-
-**Daily assignment**
-
-To be completed and submitted to Canvas by 7:45am
-
--   [Daily assignment](daily/DA_07.pdf)
-
-**Class activity**
-
--   None
-
-------------------------------------------------------------------------
-
-::: {style="color: #F66D7A"}
-### Friday (09/29)
-:::
-
-::: {style="color: purple"}
-**Quiz this afternoon at 2:30pm!**
+### Monday (02/23)
 :::
 
 **Topics**
@@ -60,10 +13,51 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
-
--   None!
+None!
 
 **Class activity**
 
--   [Conditional probability in `R`](class/cond_prob_R.pdf)
+-   Conditional probability in `R`
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Wednesday (02/25)
+:::
+
+**Topics**
+
+-   Conditional probabilities are probabilities
+-   Independence and conditional independence
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 9:00am
+
+-   Daily assignment
+
+**Class activity**
+
+-   People vs. Collins
+-   Practice problems
+
+------------------------------------------------------------------------
+
+::: {style="color: #F66D7A"}
+### Friday (02/27)
+:::
+
+**Topics**
+
+-   Random variables (discrete)
+-   PMF, Bernoulli, Binomial
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 9:00am
+
+-   Daily assignment
+
+**Class activity**
+
+-   TBD

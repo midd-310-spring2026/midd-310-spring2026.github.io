@@ -21,9 +21,9 @@ A tentative high-level overview of the semester's topics are presented here. Top
 
 ### Week 03
 
+-   Monty Hall
 -   Independence of events
 -   Discrete random variables (Bernoulli, Binomial)
--   Monty Hall
 
 ### Week 04
 

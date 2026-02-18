@@ -1,7 +1,7 @@
 ---
-title: "Problem Set 2: R problems"
+title: "Problem Set 2: R problem"
 author: "Your name here"
-date: "2025-02-25"
+date: "2026-02-24"
 output: html_document
 editor_options: 
   chunk_output_type: console
@@ -9,9 +9,9 @@ editor_options:
 
 Don't forget to change the author name in the YAML above!
 
-## Problem 4
+## Problem 3
 
-### Part a
+### Part b
 
 Evaluate your theoretical probability here:
 
@@ -21,31 +21,7 @@ Evaluate your theoretical probability here:
 
 ### Part b
 
-Estimate the probability via simulation here:
-
-
-```{r}
-
-```
-
-
-### Part c
-
-**Answer:**
-
-## Problem 5
-
-### Part a
-
-Evaluate your theoretical probability here:
-
-```{r}
-
-```
-
-### Part b
-
-Write your function here:
+Create/write your function here:
 
 ```{r}
 
@@ -58,5 +34,24 @@ Verify your theoretical probability here:
 ```{r}
 
 ```
+
+## Problem 4
+
+### Part b
+
+Evaluate your theoretical probability here:
+
+```{r}
+
+```
+
+### Part c
+
+Write code that approximates the probability here:
+
+```{r}
+
+```
+
 
 
