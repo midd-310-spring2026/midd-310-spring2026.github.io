@@ -19,10 +19,10 @@ A tentative high-level overview of the semester's topics are presented here. Top
 -   R and RStudio
 -   Conditional probability, Bayes Rule, LoTP
 
-### Week 03
+### [Week 03](weeks/week-03.qmd)
 
--   Monty Hall
 -   Independence of events
+-   Monty Hall
 -   Discrete random variables (Bernoulli, Binomial)
 
 ### Week 04

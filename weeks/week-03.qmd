@@ -8,16 +8,19 @@ title: "Week 03"
 
 **Topics**
 
--   Monty Hall
--   First-step analysis
+-   Conditional probabilities are probabilities
+-   Independence and conditional independence
 
 **Daily assignment**
 
-None!
+To be completed and submitted to Canvas by 9:00am
+
+-   [Daily assignment](daily/DA_06.pdf)
 
 **Class activity**
 
--   Conditional probability in `R`
+-   People vs. Collins
+-   Practice problems
 
 ------------------------------------------------------------------------
 
@@ -27,19 +30,16 @@ None!
 
 **Topics**
 
--   Conditional probabilities are probabilities
--   Independence and conditional independence
+-   Monty Hall
+-   First-step analysis
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 9:00am
-
--   Daily assignment
+None!
 
 **Class activity**
 
--   People vs. Collins
--   Practice problems
+-   TBD
 
 ------------------------------------------------------------------------
 
