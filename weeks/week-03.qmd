@@ -9,7 +9,7 @@ title: "Week 03"
 **Topics**
 
 -   Conditional probabilities are probabilities
--   Independence and conditional independence
+-   Independence
 
 **Daily assignment**
 
@@ -20,7 +20,6 @@ To be completed and submitted to Canvas by **10:00am**
 **Class activity**
 
 -   [People vs. Collins](class/people_v_collins.pdf)
--   Independence [practice problems](class/CA_06.pdf)
 
 ------------------------------------------------------------------------
 
@@ -30,6 +29,7 @@ To be completed and submitted to Canvas by **10:00am**
 
 **Topics**
 
+-   Conditional independence
 -   Monty Hall
 -   First-step analysis
 
@@ -39,7 +39,7 @@ None!
 
 **Class activity**
 
--   TBD
+-   Independence [practice problems](class/CA_06.pdf)
 
 ------------------------------------------------------------------------
 
