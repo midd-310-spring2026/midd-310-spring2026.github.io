@@ -39,6 +39,7 @@ None!
 
 **Class activity**
 
+-   Monty Hall [viz](class/monty_hall.jpeg)
 -   Independence [practice problems](class/CA_06.pdf)
 
 ------------------------------------------------------------------------
@@ -56,7 +57,7 @@ None!
 
 To be completed and submitted to Canvas by 9:00am
 
--   Daily assignment
+-   [Daily assignment](daily/DA_08.pdf) (a bit long so plan accordingly!)
 
 **Class activity**
 
