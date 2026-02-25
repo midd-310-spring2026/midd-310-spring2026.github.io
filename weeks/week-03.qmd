@@ -40,6 +40,7 @@ None!
 **Class activity**
 
 -   Monty Hall [viz](class/monty_hall.jpeg)
+-   Conditional probability [worksheet](class/CA_07_problems.pdf)
 -   Independence [practice problems](class/CA_06.pdf)
 
 ------------------------------------------------------------------------
