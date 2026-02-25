@@ -3,7 +3,7 @@ title: "Week 04"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (3/03)
+### Monday (3/02)
 :::
 
 **Topics**
@@ -14,18 +14,18 @@ title: "Week 04"
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
 -   [Daily assignment](daily/DA_09.pdf)
 
 **Class activity**
 
--   [Class activity](class/CA_09.pdf)
+-   TBD
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (3/05)
+### Wednesday (3/04)
 :::
 
 **Topics**
@@ -36,18 +36,18 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_10.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_10.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (3/07)
+### Friday (3/06)
 :::
 
 **Topics**
@@ -57,10 +57,10 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_11.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_11.pdf)
+-   Class activity
