@@ -10,7 +10,7 @@ title: "Week 04"
 
 -   More discrete RV's
 -   CDF
--   Joint PMF
+-   Distributions in `R`
 
 **Daily assignment**
 
@@ -30,15 +30,14 @@ To be completed and submitted to Canvas by 9:00am
 
 **Topics**
 
--   Functions of RVs
--   Random variables in `R`
 -   Independence of RVs
+-   Expected value
 
 **Daily assignment**
 
 To be completed and submitted to Canvas by 9:00am
 
--   Daily assignment
+-   None!
 
 **Class activity**
 
@@ -52,7 +51,7 @@ To be completed and submitted to Canvas by 9:00am
 
 **Topics**
 
--   Expected value
+-   Functions of RVs
 -   LoTUS
 
 **Daily assignment**

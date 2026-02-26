@@ -28,8 +28,8 @@ A tentative high-level overview of the semester's topics are presented here. Top
 ### [Week 04](weeks/week-04.qmd)
 
 -   Hypergeometric
--   Function of RVs
--   Independence of RVs
+-   CDFs
+-   Functions and Independence of RVs
 -   Expectation
 
 ### Week 05

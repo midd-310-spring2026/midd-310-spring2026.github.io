@@ -32,7 +32,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "A tentative high-level overview of the semester’s topics are presented here. Topics are subject to change based on class progress. Please select a week for a specific day’s assignments and materials.\n\nWeek 01\n\nWelcome\nSet theory\nCounting Methods\n\n\n\nWeek 02\n\nProbability axioms\nR and RStudio\nConditional probability, Bayes Rule, LoTP\n\n\n\nWeek 03\n\nIndependence of events\nMonty Hall\nDiscrete random variables (Bernoulli, Binomial)\n\n\n\nWeek 04\n\nHypergeometric\nFunction of RVs\nIndependence of RVs\nExpectation\n\n\n\nWeek 05\n\nGeometric and Negative Binomial\nIndicators\n\n\n\nWeek 6\n\nVariance\nPoisson\nContinuous RVs\nUniform\n\n\n\nSpring break!\n\n\nWeek 7\n\nNormal distribution\nExponential distribution\nContinuous RVs in R\n\n\n\nWeek 8\n\nMoments\nMGFs\n\n\n\nWeek 9\n\nJoint distributions\n2D LoTUS\nCovariance\n\n\n\nWeek 10\n\nTransformations of RVs (change of variable)\nBeta and gamma\n\n\n\nWeek 11\n\nConditional expectation\nConditional variance\n\n\n\nWeek 12\n\nInequalities\nLaw of Large Numbers\nCentral Limit Theorem!\n\n\n\nWeek 13\n\nCLT cont.",
+    "text": "A tentative high-level overview of the semester’s topics are presented here. Topics are subject to change based on class progress. Please select a week for a specific day’s assignments and materials.\n\nWeek 01\n\nWelcome\nSet theory\nCounting Methods\n\n\n\nWeek 02\n\nProbability axioms\nR and RStudio\nConditional probability, Bayes Rule, LoTP\n\n\n\nWeek 03\n\nIndependence of events\nMonty Hall\nDiscrete random variables (Bernoulli, Binomial)\n\n\n\nWeek 04\n\nHypergeometric\nCDFs\nFunctions and Independence of RVs\nExpectation\n\n\n\nWeek 05\n\nGeometric and Negative Binomial\nIndicators\n\n\n\nWeek 6\n\nVariance\nPoisson\nContinuous RVs\nUniform\n\n\n\nSpring break!\n\n\nWeek 7\n\nNormal distribution\nExponential distribution\nContinuous RVs in R\n\n\n\nWeek 8\n\nMoments\nMGFs\n\n\n\nWeek 9\n\nJoint distributions\n2D LoTUS\nCovariance\n\n\n\nWeek 10\n\nTransformations of RVs (change of variable)\nBeta and gamma\n\n\n\nWeek 11\n\nConditional expectation\nConditional variance\n\n\n\nWeek 12\n\nInequalities\nLaw of Large Numbers\nCentral Limit Theorem!\n\n\n\nWeek 13\n\nCLT cont.",
     "crumbs": [
       "Schedule"
     ]
@@ -117,14 +117,14 @@
     "href": "index.html#major-announcements",
     "title": "Probability",
     "section": "Major Announcements",
-    "text": "Major Announcements\n\nNone!"
+    "text": "Major Announcements\n\nExtra office hour Friday 2/27 from 2:00-3:00pm\nMonday 3/02 office hours modified to 3:00-4:30pm"
   },
   {
     "objectID": "weeks/week-04.html",
     "href": "weeks/week-04.html",
     "title": "Week 04",
     "section": "",
-    "text": "Monday (3/02)\n\nTopics\n\nMore discrete RV’s\nCDF\nJoint PMF\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nTBD\n\n\n\nWednesday (3/04)\n\nTopics\n\nFunctions of RVs\nRandom variables in R\nIndependence of RVs\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (3/06)\n\nTopics\n\nExpected value\nLoTUS\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity",
+    "text": "Monday (3/02)\n\nTopics\n\nMore discrete RV’s\nCDF\nDistributions in R\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nTBD\n\n\n\nWednesday (3/04)\n\nTopics\n\nIndependence of RVs\nExpected value\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nNone!\n\nClass activity\n\nClass activity\n\n\n\nFriday (3/06)\n\nTopics\n\nFunctions of RVs\nLoTUS\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity",
     "crumbs": [
       "Schedule",
       "Week 04"
@@ -549,5 +549,40 @@
     "title": "Problem Set 2: R problem",
     "section": "Problem 3",
     "text": "Problem 3\n\nPart b\nEvaluate your theoretical probability here:\n\n\nPart b\nCreate/write your function here:\n\n\nPart c\nVerify your theoretical probability here:"
+  },
+  {
+    "objectID": "weeks/class/discrete_dists_R.html",
+    "href": "weeks/class/discrete_dists_R.html",
+    "title": "Discrete Distributions in R",
+    "section": "",
+    "text": "We love working in R because it’s made for statisticians! All of the “named” distributions have been implemented in R. We will first see how to evaluate the PMF and CDF of some named distributions, and then how to simulate observations for these distributions."
+  },
+  {
+    "objectID": "weeks/class/discrete_dists_R.html#binomial-distribution",
+    "href": "weeks/class/discrete_dists_R.html#binomial-distribution",
+    "title": "Discrete Distributions in R",
+    "section": "Binomial distribution",
+    "text": "Binomial distribution\nSuppose \\(X \\sim \\text{Binom}(n = 5, p = 0.2)\\).\n\nEvaluating the PMF\nRecall that the PMF of a discrete RV \\(X\\) is \\(f_{X}(x) = P(X=x)\\), where \\(x \\in \\mathbb{R}\\).\nI might want to know, what is \\(P(X = 3)\\)? We will use the function dbinom(), which takes in three arguments:\n\n# x: where we'd like to evaluate the PMF at\n# size: n in Binom(n, p)\n# prob: p in Binom(n, p)\ndbinom(x = 3, size = 5, prob = 0.2)\n\n[1] 0.0512\n\n\nA quick confirmation using the Binomial PMF:\n\nchoose(5,2) * 0.2^3 * (1-0.2)^(5-3)\n\n[1] 0.0512\n\n\n\n\nEvaluating the CDF\nWhat if I want to know \\(F_{X}(2) = P(X \\leq 2)\\)? We will use the function pbinom(), which also takes in three arguments, in the same order as in dbinom(), but we just remember that we’ll be obtaining the CDF, not PMF:\n\n# q: where we'd like to evaluate the CDF at\n# size: n in Binom(n, p)\n# prob: p in Binom(n, p)\npbinom(q = 2, size = 5, p = 0.2)\n\n[1] 0.94208\n\n\nA quick confirmation:\n\nchoose(5,0) * 0.2^0 * (1-0.2)^(5-0) + choose(5,1) * 0.2^1 * (1-0.2)^(5- 1)  + choose(5,2) * 0.2^2 * (1-0.2)^(5-2)  \n\n[1] 0.94208\n\n\n\n\nSimulating/generating random variables\nSuppose I want to simulate a single observation of \\(X\\) (e.g. flipping a coin 5 times with probability 0.2 of Heads, and counting how many Heads occurred). We can do that with rbinom():\n\n# first argument: number of observations to generate \n# size: n in Binom(n, p)\n# prob: p in Binom(n, p)\nrbinom(1, size = 5, p = 0.2)\n\n[1] 1\n\n\nI can change how many times I observe this process by changing the first argument. So if I instead I want to repeat the experiment 10 times:\n\nrbinom(10, size = 5, p = 0.2)\n\n [1] 2 1 4 2 1 1 0 0 2 2\n\n\nEach of the numbers above is the number of successes in 5 trials."
+  },
+  {
+    "objectID": "weeks/class/discrete_dists_R.html#hypergeometric-distribution",
+    "href": "weeks/class/discrete_dists_R.html#hypergeometric-distribution",
+    "title": "Discrete Distributions in R",
+    "section": "Hypergeometric Distribution",
+    "text": "Hypergeometric Distribution\nThe nice thing about R is the the syntax of d&lt;dist&gt;(), p&lt;dist&gt;(), and r&lt;dist&gt;() is consistent! We just have to remember the shorthand for the &lt;dist&gt;. So if \\(X \\sim \\text{HyperGeom}(4,3,2)\\), we have the following:\n\n# P(X = 2)\n# here, m = number of white balls (w), n = number of black balls (b), \n# and k = number of balls drawn (n)\ndhyper(x = 2, m = 4, n = 2, k = 3)\n\n[1] 0.6\n\n# P(X &lt;= 2)\nphyper(q = 2, m = 4, n = 2, k = 3)\n\n[1] 0.8\n\n# simulate 1 observation of X (i.e. number many white balls drawn)\nrhyper(1, m = 4, n = 2, k = 3)\n\n[1] 2"
+  },
+  {
+    "objectID": "weeks/class/discrete_dists_R.html#discrete-uniform",
+    "href": "weeks/class/discrete_dists_R.html#discrete-uniform",
+    "title": "Discrete Distributions in R",
+    "section": "Discrete Uniform",
+    "text": "Discrete Uniform\nThe Discrete Uniform doesn’t need a fancy R function because we can get the PMF and CDF extremely easily. To generate observations from this distribution, we use the sample() function because it, by default, treats all objects in a vector as equally likely to be randomly sampled.\nSuppose \\(X \\sim \\text{DiscreteUnif}(\\{1, 2, 4, 10\\})\\) and I’d like to sample 1 observation from this distribution.\n\nsample(c(1,2,4,10), size = 1)\n\n[1] 1\n\n\nIf I want to sample 3 observations, I need to specify that I’d like to sample with replacement:\n\nsample(c(1,2,4,10), size = 3, replace = T)\n\n[1] 1 2 1"
+  },
+  {
+    "objectID": "weeks/class/discrete_dists_R.html#sampling-any-discrete-distribution-with-finite-support",
+    "href": "weeks/class/discrete_dists_R.html#sampling-any-discrete-distribution-with-finite-support",
+    "title": "Discrete Distributions in R",
+    "section": "Sampling any discrete distribution with finite support",
+    "text": "Sampling any discrete distribution with finite support\nWe can also use the sample() function to generate observations from any discrete distribution with finite support by changing a single argument. Remember that a PMF just specifies the probabilities associated with each \\(x\\in S_{X}\\). Suppose I have a discrete RV with the following PMF:\n\\[\nP(X = x) = \\begin{cases}\n0.5 & \\text{ if } x = 0 \\\\\n0.4 & \\text{ if } x = 1 \\\\\n0.1 & \\text{ if } x = 2 \\\\\n0 & \\text{ otherwise}\n\\end{cases}\n\\]\nWe can sample from this distribution by simply specifying these probabilities in the prob argument:\n\nsample(c(0,1,2), size = 10, replace = T, prob = c(0.5, 0.4, 0.1))\n\n [1] 0 1 0 1 1 0 0 2 0 1\n\n\nNote that the order of probabilities provided must match the order of the values in the support!"
   }
 ]
