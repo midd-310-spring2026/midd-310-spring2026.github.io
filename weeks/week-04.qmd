@@ -20,7 +20,8 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class activity**
 
--   TBD
+-   Distributions in `R` (filled in version [here](class/discrete_dists_R.qmd))
+-   [Practice problems](class/CA_09.pdf)
 
 ------------------------------------------------------------------------
 
@@ -52,6 +53,7 @@ To be completed and submitted to Canvas by 9:00am
 **Topics**
 
 -   Functions of RVs
+-   Expected value (cont.)
 -   LoTUS
 
 **Daily assignment**

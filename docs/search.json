@@ -124,7 +124,7 @@
     "href": "weeks/week-04.html",
     "title": "Week 04",
     "section": "",
-    "text": "Monday (3/02)\n\nTopics\n\nMore discrete RV’s\nCDF\nDistributions in R\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nTBD\n\n\n\nWednesday (3/04)\n\nTopics\n\nIndependence of RVs\nExpected value\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nNone!\n\nClass activity\n\nClass activity\n\n\n\nFriday (3/06)\n\nTopics\n\nFunctions of RVs\nLoTUS\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity",
+    "text": "Monday (3/02)\n\nTopics\n\nMore discrete RV’s\nCDF\nDistributions in R\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nDistributions in R (filled in version here)\nPractice problems\n\n\n\nWednesday (3/04)\n\nTopics\n\nIndependence of RVs\nExpected value\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nNone!\n\nClass activity\n\nClass activity\n\n\n\nFriday (3/06)\n\nTopics\n\nFunctions of RVs\nExpected value (cont.)\nLoTUS\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity",
     "crumbs": [
       "Schedule",
       "Week 04"
@@ -135,7 +135,7 @@
     "href": "weeks/week-05.html",
     "title": "Week 05",
     "section": "",
-    "text": "Monday (3/10)\n\nTopics\n\nGeometric and Negative Binomial Distributions\n\nDaily assignment\nTo be completed and submitted to Canvas by 7:45am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nWednesday (3/12)\n\nTopics\n\nIndicator variables\nFundamental Bridge\n\nDaily assignment\nTo be completed and submitted to Canvas by 7:45am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (3/14)\n\nNo class nor office hours! Please fill out the mid-semester survey found on the homepage!"
+    "text": "Monday (3/09)\n\nTopics\n\nLoTUS\nGeometric and Negative Binomial Distributions\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nWednesday (3/11)\n\nTopics\n\nIndicator variables\nFundamental Bridge\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (3/13)\n\nTopics\nNone!\nDaily assignment\nNone!\nClass activity\nNone!"
   },
   {
     "objectID": "exam.html",
@@ -359,7 +359,7 @@
     "href": "assessments/exam.html",
     "title": "Assessments",
     "section": "",
-    "text": "Details\n\nThursday, May 15 from 7-10pm in WNS 105 (our usual room)\nSame distribution sheet as before will be provided to you!\nThe final is cumulative, with emphasis on material from last third of the course\nYou are allowed a one double-sided note sheet (8.5x11 inches). Once again, no worked-out examples allowed!\nIf it is to your advantage, your score on the final exam will replace the lowest score among {Quiz 1, Midterm, Quiz 2}\n\n\n\n\nCounting: multiplication rule, permutations and combinations, sampling with versus without replacement when order does/doesn’t matter\nBasic probability: sample spaces, events, naive probability, axioms, unions, intersections, complements, inclusion-exclusion, independence of events\nConditional probability: definition and meaning, Bayes’ rule and theorem, LoTP, conditional independence\nRandom variables: definitions and interpretations, stories, discrete vs continuous, distributions, PMFs, CDFs, PDFs, MGFs, function of RV, indicators, memoryless of Exponential, universality of Uniform, Poisson approximation, location-scale transform of Normal and Uniform\n\nFeeling comfortable with all our named distributions\n\nMoments: expectation and its properties, fundamental bridge, variance and its properties, standard deviation, covariance and correlation, LoTUS, moments from MGFs\nJoint distributions: joint, conditional, and marginal distributions, independence, change of variables, finding dist. of min/max\nConditional expectation: definition and meaning, properties, Adam’s and Eve’s Laws\nInequalities and theorems: Markov, Chebshev, WLLN, CLT\nConnections between distributions and their derivations: e.g. sum of independent Normals, sum of independent Poissons, sum of Exponentials, Bank-Post office, chicken-egg, etc.\n\n\n\n\n\nMany practice problems posted here!\n\nI suggest first reviewing your notes before attempting these problems!\n\nThese problems are not exhaustive!!"
+    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems will be posted here soon\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
   },
   {
     "objectID": "schedule.html#spring-break",
@@ -463,8 +463,8 @@
     "objectID": "assessments/exam.html#midterm",
     "href": "assessments/exam.html#midterm",
     "title": "Assessments",
-    "section": "Midterm",
-    "text": "Midterm\n\nWhat and when\n\nThursday, April 3 from 7:00-9:00pm in WNS 105\nContent through March 26 is fair game (emphasis on content from Week 3 onward)\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports), means, and variances for our named distributions. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nNo homework due Week 7, but there will be a problem set due the following Tuesday (4/8)\n\n\n\nStudy tips\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems here (solutions shared on Canvas)\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
+    "section": "",
+    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems will be posted here\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
   },
   {
     "objectID": "assessments/exam.html#quiz-2",
@@ -584,5 +584,12 @@
     "title": "Discrete Distributions in R",
     "section": "Sampling any discrete distribution with finite support",
     "text": "Sampling any discrete distribution with finite support\nWe can also use the sample() function to generate observations from any discrete distribution with finite support by changing a single argument. Remember that a PMF just specifies the probabilities associated with each \\(x\\in S_{X}\\). Suppose I have a discrete RV with the following PMF:\n\\[\nP(X = x) = \\begin{cases}\n0.5 & \\text{ if } x = 0 \\\\\n0.4 & \\text{ if } x = 1 \\\\\n0.1 & \\text{ if } x = 2 \\\\\n0 & \\text{ otherwise}\n\\end{cases}\n\\]\nWe can sample from this distribution by simply specifying these probabilities in the prob argument:\n\nsample(c(0,1,2), size = 10, replace = T, prob = c(0.5, 0.4, 0.1))\n\n [1] 0 1 0 1 1 0 0 2 0 1\n\n\nNote that the order of probabilities provided must match the order of the values in the support!"
+  },
+  {
+    "objectID": "assessments/exam.html#midterm-1",
+    "href": "assessments/exam.html#midterm-1",
+    "title": "Assessments",
+    "section": "",
+    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems will be posted here soon\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
   }
 ]

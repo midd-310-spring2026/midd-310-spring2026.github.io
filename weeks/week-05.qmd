@@ -3,27 +3,28 @@ title: "Week 05"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (3/10)
+### Monday (3/09)
 :::
 
 **Topics**
 
+-   LoTUS
 -   Geometric and Negative Binomial Distributions
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_12.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_12.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (3/12)
+### Wednesday (3/11)
 :::
 
 **Topics**
@@ -33,18 +34,28 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_13.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_13.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (3/14)
+### Friday (3/13)
 :::
 
-**No class nor office hours! Please fill out the mid-semester survey found on the homepage!**
+**Topics**
+
+None!
+
+**Daily assignment**
+
+None!
+
+**Class activity**
+
+None!
