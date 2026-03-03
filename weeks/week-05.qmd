@@ -10,6 +10,7 @@ title: "Week 05"
 
 -   LoTUS
 -   Geometric and Negative Binomial Distributions
+-   Distributions in `R`
 
 **Daily assignment**
 
@@ -20,6 +21,7 @@ To be completed and submitted to Canvas by 9:00am
 **Class activity**
 
 -   Class activity
+-   Distributions in `R` (filled in version [here](class/discrete_dists_R.qmd))
 
 ------------------------------------------------------------------------
 

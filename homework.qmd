@@ -12,3 +12,5 @@ Note: problem sets will be updated with new questions following each class. Comp
     -   Associated `.Rmd` file: {{< downloadthis weeks/hw/310_hw2_R.Rmd dname="hw2_R" label="hw2_R" id=mtcars-btn >}}
 -   [Problem Set 3](weeks/hw/310_hw3.pdf): covers material from 2/23-2/27
     -   Due 3/03 at 11:59pm
+-   [Problem Set 4](weeks/hw/310_hw4.pdf): covers material from 3/02-3/06
+    -   Due 3/10 at 11:59pm

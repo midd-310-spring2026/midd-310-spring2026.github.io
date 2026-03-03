@@ -10,7 +10,6 @@ title: "Week 04"
 
 -   More discrete RV's
 -   CDF
--   Distributions in `R`
 
 **Daily assignment**
 
@@ -20,7 +19,6 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class activity**
 
--   Distributions in `R` (filled in version [here](class/discrete_dists_R.qmd))
 -   [Practice problems](class/CA_09.pdf)
 
 ------------------------------------------------------------------------
