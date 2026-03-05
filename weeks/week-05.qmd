@@ -8,7 +8,6 @@ title: "Week 05"
 
 **Topics**
 
--   LoTUS
 -   Geometric and Negative Binomial Distributions
 -   Distributions in `R`
 
@@ -50,14 +49,4 @@ To be completed and submitted to Canvas by 9:00am
 ### Friday (3/13)
 :::
 
-**Topics**
-
-None!
-
-**Daily assignment**
-
-None!
-
-**Class activity**
-
-None!
+**Midterm 1!**

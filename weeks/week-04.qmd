@@ -40,7 +40,7 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class activity**
 
--   Class activity
+-   [Rest of proof](class/sum_binom_thm.qmd) from class
 
 ------------------------------------------------------------------------
 
@@ -51,7 +51,7 @@ To be completed and submitted to Canvas by 9:00am
 **Topics**
 
 -   Functions of RVs
--   Expected value (cont.)
+-   Expected value properties
 -   LoTUS
 
 **Daily assignment**

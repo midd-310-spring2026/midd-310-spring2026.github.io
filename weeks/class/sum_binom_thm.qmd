@@ -1,0 +1,23 @@
+---
+title: "Proof of sum of independent Binomial RVs"
+format: pdf
+---
+
+Let $X \sim \text{Binom}(n,p) \perp Y \sim \text{Binom}(m,p)$. We want to show $X + Y \sim \text{Binom}(n+m, p)$.
+
+To do this, we will need Vandermonde's Identity: $$\sum_{j=0}^{k} \binom{m}{k-j} \binom{n}{j} = \binom{n+m}{k}$$
+
+The proof is as follows. For $k = 0,1,\ldots, m+n$:
+
+
+\begin{align*}
+  P(X+Y = k) &= \sum_{j=0}^{k} P(X + Y = k | X = j) P(X=j) \\
+  &\vdots \\
+  &= \sum_{j=0}^{k}\binom{m}{k-j} p^{k-j} (1-p)^{m-(k-j)} \cdot \binom{n}{j} p^j (1-p)^{n-j} \\
+  &= \sum_{j=0}^{k}\binom{m}{k-j}\binom{n}{j}  p^{k} (1-p)^{n + m- k } \qquad \text{ combining like terms}\\
+  &=  p^{k} (1-p)^{n + m- k }\sum_{j=0}^{k}\binom{m}{k-j}\binom{n}{j} \qquad \text{ factoring out terms that don't depend on j} \\
+  &= p^{k} (1-p)^{n + m- k } \binom{n+m}{k} \quad  \quad \text{Vandermonde's Identity} \\
+  &= \binom{n+m}{k}p^{k}(1-p)^{ (n + m)- k } 
+\end{align*}
+
+This is exactly the PMF corresponding to a $\text{Binom}(n+m, p)$. (Remember, $k$ is just a placeholder!)
