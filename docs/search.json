@@ -117,14 +117,14 @@
     "href": "index.html#major-announcements",
     "title": "Probability",
     "section": "Major Announcements",
-    "text": "Major Announcements\n\nMidterm 1 details announced in beginning of Week 4!\nStatistics talk: Feel the noise: A statistical journey through the resolution of a low frequency noise issue by Richard Single (UVM)\n\nMonday 3/9 at 3:30pm in WNS 104\nMore information here\n\nModified office hours\n\nMonday 3/9 from 2:00-3:30pm (then go to the talk!)"
+    "text": "Major Announcements\n\nStatistics talk: Feel the noise: A statistical journey through the resolution of a low frequency noise issue by Richard Single (UVM)\n\nMonday 3/9 at 3:30pm in WNS 104\nMore information here\n\nModified office hours\n\nFriday 3/6 from 2:00-3:00pm\nMonday 3/9 from 2:00-3:30pm (then go to the talk!)\nAdditional TA hours: Thursday 3/12 from 7:00-9:00pm in WNS 011"
   },
   {
     "objectID": "weeks/week-04.html",
     "href": "weeks/week-04.html",
     "title": "Week 04",
     "section": "",
-    "text": "Monday (3/02)\n\nTopics\n\nMore discrete RV’s\nCDF\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nPractice problems\n\n\n\nWednesday (3/04)\n\nTopics\n\nIndependence of RVs\nExpected value\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nNone!\n\nClass activity\n\nRest of proof from class\n\n\n\nFriday (3/06)\n\nTopics\n\nFunctions of RVs\nExpected value properties\nLoTUS\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity",
+    "text": "Monday (3/02)\n\nTopics\n\nMore discrete RV’s\nCDF\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nPractice problems\n\n\n\nWednesday (3/04)\n\nTopics\n\nIndependence of RVs\nExpected value\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nNone!\n\nClass activity\n\nRest of proof from class\n\n\n\nFriday (3/06)\n\nTopics\n\nFunctions of RVs\nExpected value properties\nLoTUS\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nProof of expectation of a sum of RVs\nFunctions of RVs and LoTUS practice problems",
     "crumbs": [
       "Schedule",
       "Week 04"
@@ -363,7 +363,7 @@
     "href": "assessments/exam.html",
     "title": "Assessments",
     "section": "",
-    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems will be posted here soon\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
+    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems are available here!\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
   },
   {
     "objectID": "schedule.html#spring-break",
@@ -594,6 +594,6 @@
     "href": "assessments/exam.html#midterm-1",
     "title": "Assessments",
     "section": "",
-    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems will be posted here soon\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
+    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems are available here!\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
   }
 ]

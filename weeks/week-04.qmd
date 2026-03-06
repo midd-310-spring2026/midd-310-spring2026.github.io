@@ -62,4 +62,5 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class activity**
 
--   Class activity
+-   [Proof](class/expectation_sum.qmd) of expectation of a sum of RVs
+-   Functions of RVs and LoTUS [practice problems](class/CA_11.pdf)

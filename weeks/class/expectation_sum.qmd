@@ -1,0 +1,22 @@
+---
+title: "Proof of expectation of a sum of RVs"
+format: pdf
+---
+
+Let $X$ and $Y$ be two discrete random variables. Then $\mathbb{E}[X + Y] = \mathbb{E}[X] + \mathbb{E}[Y]$.
+
+To prove this, recall that two functions $g_{1}$ and $g_{2}$ can be added by summing their expressions. That is, $g_1(x) + g_{2}(x) = (g_{1} + g_{2})(x)$.
+
+The proof is as follows: Let $Z = X + Y$, which is itself a discrete random variable.
+
+\begin{align*}
+\mathbb{E}[X + Y] = \mathbb{E}[Z] &= \sum_{z \in S_{Z}} z P(Z=z) \\
+&= \sum_{s \in \mathcal{S}} Z(s) P(s) \qquad (*) \\
+&= \sum_{s \in \mathcal{S}} (X+Y)(s) P(s) \\
+&= \sum_{s \in \mathcal{S}} [X(s)+Y(s)] P(s)  \qquad \text{function addition} \\
+&= \sum_{s \in \mathcal{S}} X(s) P(s) +  \sum_{s \in \mathcal{S}} Y(s) P(s) \\
+&= \sum_{x \in S_{X}} x P(X=x) + \sum_{y \in S_{Y}} y P(Y=y) \qquad (*) \\
+&= \mathbb{E}[X] + \mathbb{E}[Y]  \qquad  \text{definition of expectation}
+\end{align*}
+
+$*$ Recall that a RV is a function mapping from sample space $\mathcal{S}$ to the real line. So $z \in S_{Z}$ corresponds to the output of the function $Z(s)$ for some outcome $s$ in the sample space. Then $P(Z=z)$ is equivalent to the probability of that outcome $s$ occurring, which is $P(s)$.
