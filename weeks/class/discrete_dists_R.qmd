@@ -3,6 +3,8 @@ title: "Discrete Distributions in R"
 format: pdf
 ---
 
+\vspace{-2cm}
+
 We love working in R because it's made for statisticians! All of the "named" distributions have been implemented in R. We will first see how to evaluate the PMF and CDF of some named distributions, and then how to simulate observations for these distributions.
 
 ## Binomial distribution
@@ -13,7 +15,7 @@ Suppose $X \sim \text{Binom}(n = 5, p = 0.2)$.
 
 Recall that the PMF of a discrete RV $X$ is $f_{X}(x) = P(X=x)$, where $x \in \mathbb{R}$.
 
-I might want to know, what is $P(X = 3)$? We will use the function `dbinom()`, which takes in three arguments:
+If I want to know $P(X = 3)$, we use the function `dbinom()`, which takes in three arguments:
 
 ```{r}
 # x: where we'd like to evaluate the PMF at
@@ -49,26 +51,20 @@ choose(5,0) * 0.2^0 * (1-0.2)^(5-0) +
 
 ### Simulating/generating random variables
 
-Suppose I want to simulate a single observation of $X$ (e.g. flipping a coin 5 times with probability 0.2 of Heads, and counting how many Heads occurred). We can do that with `rbinom()`:
+Suppose I want to simulate 10 observations of $X$ (e.g. 10 iterations of flipping a coin 5 times with probability 0.2 of Heads, and count how many Heads occur). We can do that with `rbinom()`:
 
 ```{r}
 # first argument: number of observations to generate 
 # size: n in Binom(n, p)
 # prob: p in Binom(n, p)
-rbinom(1, size = 5, p = 0.2)
-```
-
-I can change how many times I observe this process by changing the first argument. So if I instead I want to repeat the experiment 10 times:
-
-```{r}
 rbinom(10, size = 5, p = 0.2)
 ```
 
-Each of the numbers above is the number of successes in 5 trials.
+Each of the numbers above is the simulated number of successes in 5 trials.
 
 ## Hypergeometric Distribution
 
-The nice thing about R is the the syntax of `d<dist>()`, `p<dist>()`, and `r<dist>()` is consistent! We just have to remember the shorthand for the `<dist>`. So if $X \sim \text{HyperGeom}(4,3,2)$, we have the following:
+The nice thing about R is the the syntax of `d<dist>()`, `p<dist>()`, and `r<dist>()` is consistent! We just have to remember the shorthand for the `<dist>`. So if $X \sim \text{HyperGeom}(4,3,2)$:
 
 ```{r}
 # P(X = 2)
@@ -78,16 +74,33 @@ dhyper(x = 2, m = 4, n = 2, k = 3)
 
 # P(X <= 2)
 phyper(q = 2, m = 4, n = 2, k = 3)
+```
 
-# simulate 1 observation of X (i.e. number many white balls drawn)
-rhyper(1, m = 4, n = 2, k = 3)
+## Geometric Distribution
+
+Note that there are NOT R functions that correspond directly to the First Success distribution. Instead, `pgeom()` and `dgeom()` correspond to the Geometric distribution. If you ever forget, you can open the Help file for the functions by typing `?function_name()` (e.g. `?dgeom()`). Then you'll scroll and see the PMF!
+
+Recall the dice example from the daily assignment: what is the probability that we'll have to roll more than 6 times to see our first 1?
+
+If $X$ is number of rolls needed to see first 1, then $X \sim \text{FS}(1/6)$ or equivalently, $Y = \text{X-1} \sim Geom(1/6)$. So $P(X \leq 6) = P(Y \leq 5)$.
+
+```{r}
+1 - pgeom(5, prob = 1/6)
+```
+
+## Negative Binomial
+
+If $X \sim \text{NegBinom}(r, p)$ and we want $P(X = x)$ the R syntax is:
+
+```{r eval = F}
+dnbinom(x, size = r, prob = b)
 ```
 
 ## Discrete Uniform
 
 The Discrete Uniform doesn't need a fancy R function because we can get the PMF and CDF extremely easily. To generate observations from this distribution, we use the `sample()` function because it, by default, treats all objects in a vector as equally likely to be randomly sampled.
 
-Suppose $X \sim \text{DiscreteUnif}(\{1, 2, 4, 10\})$ and I'd like to sample 1 observation from this distribution.
+Suppose $X \sim \text{DiscreteUnif}(\{1, 2, 4, 10\})$ and I'd like to sample 1 observation.
 
 ```{r}
 sample(c(1,2,4,10), size = 1)

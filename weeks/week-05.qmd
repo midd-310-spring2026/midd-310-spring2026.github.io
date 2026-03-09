@@ -19,7 +19,7 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class activity**
 
--   Class activity
+-   Geometric/first success [practice problems](class/CA_12.pdf)
 -   Distributions in `R` (filled in version [here](class/discrete_dists_R.qmd))
 
 ------------------------------------------------------------------------
