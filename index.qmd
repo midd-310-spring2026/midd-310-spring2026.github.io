@@ -7,11 +7,7 @@ Welcome to the website for Middlebury College's Spring 2026 MATH/STAT 310. On th
 
 ## Major Announcements
 
--   Statistics talk: *Feel the noise: A statistical journey through the resolution of a low frequency noise issue* by Richard Single (UVM)
-    -   Monday 3/9 at 3:30pm in WNS 104
-    -   More information [here](https://www.middlebury.edu/events/event/feel-noise-statistical-journey-through-resolution-low-frequency-noise-issue)
 -   Modified office hours
-    -   Monday 3/9 from 2:00-3:30pm (then go to the talk!)
     -   Wednesday 3/11 from 3:30-4:30pm (extra!)
     -   Additional TA hours: Thursday 3/12 from 7:00-9:00pm in WNS 011
 

@@ -37,11 +37,12 @@ To be completed and submitted to Canvas by 9:00am
 
 To be completed and submitted to Canvas by 9:00am
 
--   Daily assignment
+-   None!
 
 **Class activity**
 
--   Class activity
+-   Distributions in `R` (filled in version [here](class/discrete_dists_R.qmd))
+-   Indicator and Fundamental Bridge [practice problems](class/CA_13.pdf)
 
 ------------------------------------------------------------------------
 
