@@ -32,7 +32,7 @@
     "href": "schedule.html",
     "title": "Schedule",
     "section": "",
-    "text": "A tentative high-level overview of the semester’s topics are presented here. Topics are subject to change based on class progress. Please select a week for a specific day’s assignments and materials.\n\nWeek 01\n\nWelcome\nSet theory\nCounting Methods\n\n\n\nWeek 02\n\nProbability axioms\nR and RStudio\nConditional probability, Bayes Rule, LoTP\n\n\n\nWeek 03\n\nIndependence of events\nMonty Hall\nDiscrete random variables (Bernoulli, Binomial)\n\n\n\nWeek 04\n\nHypergeometric\nCDFs\nFunctions and Independence of RVs\nExpectation\n\n\n\nWeek 05\n\nGeometric and Negative Binomial\nIndicators\n\n\n\nWeek 6\n\nVariance\nPoisson\nContinuous RVs\nUniform\n\n\n\nSpring break!\n\n\nWeek 7\n\nNormal distribution\nExponential distribution\nContinuous RVs in R\n\n\n\nWeek 8\n\nMoments\nMGFs\n\n\n\nWeek 9\n\nJoint distributions\n2D LoTUS\nCovariance\n\n\n\nWeek 10\n\nTransformations of RVs (change of variable)\nBeta and gamma\n\n\n\nWeek 11\n\nConditional expectation\nConditional variance\n\n\n\nWeek 12\n\nInequalities\nLaw of Large Numbers\nCentral Limit Theorem!\n\n\n\nWeek 13\n\nCLT cont.",
+    "text": "A tentative high-level overview of the semester’s topics are presented here. Topics are subject to change based on class progress. Please select a week for a specific day’s assignments and materials.\n\nWeek 01\n\nWelcome\nSet theory\nCounting Methods\n\n\n\nWeek 02\n\nProbability axioms\nR and RStudio\nConditional probability, Bayes Rule, LoTP\n\n\n\nWeek 03\n\nIndependence of events\nMonty Hall\nDiscrete random variables (Bernoulli, Binomial)\n\n\n\nWeek 04\n\nHypergeometric\nCDFs\nFunctions and Independence of RVs\nExpectation\n\n\n\nWeek 05\n\nGeometric and Negative Binomial\nIndicators\n\n\n\nWeek 6\n\nVariance\nPoisson\nContinuous RVs (Uniform)\n\n\n\nSpring break!\n\n\nWeek 7\n\nNormal distribution\nExponential distribution\nContinuous RVs in R\n\n\n\nWeek 8\n\nMoments\nMGFs\n\n\n\nWeek 9\n\nJoint distributions\n2D LoTUS\nCovariance\n\n\n\nWeek 10\n\nTransformations of RVs (change of variable)\nBeta and gamma\n\n\n\nWeek 11\n\nConditional expectation\nConditional variance\n\n\n\nWeek 12\n\nInequalities\nLaw of Large Numbers\nCentral Limit Theorem!\n\n\n\nWeek 13\n\nCLT cont.",
     "crumbs": [
       "Schedule"
     ]
@@ -117,7 +117,7 @@
     "href": "index.html#major-announcements",
     "title": "Probability",
     "section": "Major Announcements",
-    "text": "Major Announcements\n\nModified office hours\n\nWednesday 3/11 from 3:30-4:30pm (extra!)\nAdditional TA hours: Thursday 3/12 from 7:00-9:00pm in WNS 011"
+    "text": "Major Announcements\n\nModified office hours\n\nAdditional TA hours: Thursday 3/12 from 7:00-9:00pm in WNS 011"
   },
   {
     "objectID": "weeks/week-04.html",
@@ -153,7 +153,11 @@
     "href": "weeks/week-06.html",
     "title": "Week 06",
     "section": "",
-    "text": "Monday (3/24)\n\nTopics\n\nVariance\n\nDaily assignment\nTo be completed and submitted to Canvas by 7:45am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nWednesday (3/26)\n\n\nContent through today is fair game for Midterm!\n\nTopics\n\nPoisson distribution\nPoisson paradigm\n\nDaily assignment\nTo be completed and submitted to Canvas by 7:45am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (3/28)\n\nTopics\n\nContinuous random variables\nUniform\n\nDaily assignment\nTo be completed and submitted to Canvas by 7:45am\n\nDaily assignment\n\nClass activity\n\nClass activity"
+    "text": "Monday (3/23)\n\nTopics\n\nVariance\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nWednesday (3/25)\n\n\nPoisson distribution\nPoisson paradigm\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (3/27)\n\nTopics\n\nContinuous random variables\nUniform\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity",
+    "crumbs": [
+      "Schedule",
+      "Week 06"
+    ]
   },
   {
     "objectID": "weeks/week-07.html",

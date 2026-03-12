@@ -8,7 +8,6 @@ Welcome to the website for Middlebury College's Spring 2026 MATH/STAT 310. On th
 ## Major Announcements
 
 -   Modified office hours
-    -   Wednesday 3/11 from 3:30-4:30pm (extra!)
     -   Additional TA hours: Thursday 3/12 from 7:00-9:00pm in WNS 011
 
 ## Course Details

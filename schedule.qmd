@@ -37,12 +37,11 @@ A tentative high-level overview of the semester's topics are presented here. Top
 -   Geometric and Negative Binomial
 -   Indicators
 
-### Week 6
+### [Week 6](weeks/week-06.qmd)
 
 -   Variance
 -   Poisson
--   Continuous RVs
--   Uniform
+-   Continuous RVs (Uniform)
 
 ### Spring break!
 

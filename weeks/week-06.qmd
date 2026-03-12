@@ -3,7 +3,7 @@ title: "Week 06"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (3/24)
+### Monday (3/23)
 :::
 
 **Topics**
@@ -12,43 +12,37 @@ title: "Week 06"
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_14.pdf)
+-   [Daily assignment](daily/DA_15.pdf)
 
 **Class activity**
 
--   [Class activity](class/CA_14.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (3/26)
+### Wednesday (3/25)
 :::
-
-::: {style="color: purple"}
-**Content through today is fair game for Midterm!**
-:::
-
-**Topics**
 
 -   Poisson distribution
 -   Poisson paradigm
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_15.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_15.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (3/28)
+### Friday (3/27)
 :::
 
 **Topics**
@@ -58,10 +52,10 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_16.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_16.pdf)
+-   Class activity
