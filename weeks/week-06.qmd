@@ -3,7 +3,7 @@ title: "Week 06"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (3/23)
+### Monday (3/16)
 :::
 
 **Topics**
@@ -23,7 +23,7 @@ To be completed and submitted to Canvas by 9:00am
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (3/25)
+### Wednesday (3/18)
 :::
 
 -   Poisson distribution
@@ -42,7 +42,7 @@ To be completed and submitted to Canvas by 9:00am
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (3/27)
+### Friday (3/20)
 :::
 
 **Topics**
