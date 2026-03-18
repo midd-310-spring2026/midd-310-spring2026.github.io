@@ -71,6 +71,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -188,6 +217,7 @@ ul.task-list li input[type="checkbox"] {
 <li><a href="weeks/hw/310_hw5.pdf">Problem Set 5</a>: covers material from 3/09-3/18
 <ul>
 <li>Due 3/20 at 11:59pm (first three days of problems) OR 3/28 (all four days of problems)</li>
+<li><strong>Note: there was a typo on question 1.</strong> In the theorem, the term on the right should be <span class="math inline">\((1+v)^{-n}\)</span>, not <span class="math inline">\((1+v)^{n}\)</span>. (Fixed as of 9:00pm 3/17)</li>
 </ul></li>
 </ul>
 
