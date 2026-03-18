@@ -1,0 +1,44 @@
+---
+title: "Law of Rare Events"
+---
+
+## Option 1:
+
+The events $A_{j}$ represent that the $j$-th trio of majors share the same birthday for $j = 1,\ldots, \binom{120}{3}$. So $p_{j} = \frac{1}{365}^2$.
+
+```{r}
+lambda1 <- choose(120,3)/365^2
+
+# approximate P(X >= 1) = 1 - P(X = 0)
+1 - dpois(0, lambda1)
+```
+
+## Option 2:
+
+
+The events $A_{j}$ represent that the $j$-day of the year has at least three majors with the same birthday for $j = 1,\ldots, 365$. So $p_{j} = 1-P(A_{j}^c)$. $A_{j}^c$ is the event that at most two majors have their birthday on day $j$ (so 0, 1, or 2 people can have their birthday on that day).
+
+$$P(A_{j}^c) = \left(\frac{364}{365}\right)^{120} + \binom{120}{1}\frac{1}{365}\left(\frac{364}{365}\right)^{119} + \binom{120}{2}\left(\frac{1}{365}\right)^2\left(\frac{364}{365}\right)^{118}$$
+
+```{r}
+p_j_complement <- (364/365)^120 + 120 * (1/365) * (364/365)^119 + 
+                       choose(120,2) * (1/365^2) * (364/365)^118
+lambda2 <- 365*(1 - p_j_complement)
+1 - dpois(0, lambda2)
+```
+
+## Simulate
+
+Let's see which is the better approximation! The code below is provided if you're interested, but you're not expected to re-produce it!
+
+```{r}
+set.seed(1)
+n <- 120
+G <- 10000
+trio_match <- rep(NA, G)
+for(g in 1:G){
+  bdays <- sample(1:365, n, replace = T)
+  trio_match[g] <- sum(table(bdays) >= 3)
+}
+mean(trio_match > 0)
+```

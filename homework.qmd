@@ -14,6 +14,9 @@ Note: problem sets will be updated with new questions following each class. Comp
     -   Due 3/03 at 11:59pm
 -   [Problem Set 4](weeks/hw/310_hw4.pdf): covers material from 3/02-3/06
     -   Due 3/10 at 11:59pm
--   [Problem Set 5](weeks/hw/310_hw5.pdf): covers material from 3/09-3/18
-    -   Due 3/20 at 11:59pm (first three days of problems) OR 3/28 (all four days of problems)
+-   Problem Set 5:
     -   **Note: there was a typo on question 1.** In the theorem, the term on the right should be $(1+v)^{-n}$, not $(1+v)^{n}$. (Fixed as of 9:00pm 3/17)
+    -   [Option 1](weeks/hw/310_hw5.pdf): covers material from 3/09-3/16
+        -   Due 3/20 at 11:59pm
+    -   [Option 2](weeks/hw/310_hw5_opt2.pdf): covers material from 3/09-3/18
+        -   Due: 3/28 at 11:59pm

@@ -35,7 +35,7 @@ No daily assignment!
 
 **Class activity**
 
--   Class activity
+-   [Law of Rare Events example](class/LoRE.qmd)
 
 ------------------------------------------------------------------------
 
@@ -52,7 +52,7 @@ No daily assignment!
 
 To be completed and submitted to Canvas by 9:00am
 
--   Coming soon!
+-   [Daily assignment](daily/DA_17.pdf)
 
 **Class activity**
 
