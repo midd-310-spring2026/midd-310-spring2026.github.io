@@ -19,4 +19,4 @@ Note: problem sets will be updated with new questions following each class. Comp
     -   [Option 1](weeks/hw/310_hw5.pdf): covers material from 3/09-3/16
         -   Due 3/20 at 11:59pm
     -   [Option 2](weeks/hw/310_hw5_opt2.pdf): covers material from 3/09-3/18
-        -   Due: 3/28 at 11:59pm
+        -   Due: 3/30 at 11:59pm
