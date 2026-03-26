@@ -45,7 +45,7 @@ A tentative high-level overview of the semester's topics are presented here. Top
 
 ### Spring break!
 
-### Week 7
+### [Week 7](weeks/week-07.qmd)
 
 -   Normal distribution
 -   Exponential distribution
