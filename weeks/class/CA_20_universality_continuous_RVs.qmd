@@ -1,7 +1,7 @@
 ---
 title: "Continuous RVs and Universality of Uniform"
 author: "Becky Tang"
-date: "2025-04-04"
+date: "2026-04-03"
 format: 
   pdf:
     geometry:
@@ -58,7 +58,7 @@ Sometimes it can be helpful to visualize the density of a distribution. There ar
 
 ```{r}
 # simulate lots and lots of Unif(1, 1.5) rvs
-sims <- runif(10000, min = 1, max = 1.5)
+sims <- runif(10000, 1, 1.5)
 
 # turn y-axis into a density
 hist(x = sims,  xlab = "x", main = "Histogram of Unif(1, 1.5) simulations",
@@ -70,14 +70,14 @@ hist(x = sims,  xlab = "x", main = "Histogram of Unif(1, 1.5) simulations",
 *If we have access to the PDF directly* (which we do for the named distributions), we can simply graph the function
 
 ```{r}
-# create a sequence of values from 0 and 2 at equally-size 0.01 increments
+# create a sequence of values from 0 and 10 at equally-size 0.01 increments
 x_seq <- seq(0, 2, 0.01)
 
 # evaluate PDF of interest at each value in x_seq
-f <- dunif(x_seq, min = 1, max = 1.5)
+f <- dunif(x_seq, 1, 1.5)
 
 # type = "l" turns into lines
-plot(x = x_seq, y = f, xlab = "x", ylab = "Density", main = "PDF of Unif(1,1.5)",
+plot(x = x_seq, y = f, xlab = "x", ylab = "Density", main = "PDF of Unif(1, 1.5)",
      type = "l")
 ```
 
@@ -87,21 +87,21 @@ Now, let's see the University of the Uniform in action! Suppose you've lost acce
 
 ### Example 1
 
-How can we simulate values from the $\text{Exp}(2)$ distribution?
+How can we simulate values from the $\text{Exp}(1)$ distribution?
 
 ```{r}
 # generate lots of Unif(0,1) rvs
 u <- runif(10000, min = 0, max = 1)
 
 # use inverse CDF that we derived
-lambda <- 2
+lambda <- 1
 x <- (-1/lambda) * log(1 - u)
 
 # let's visualize them:
-hist(x, xlab = "x", main = "Exp(2) rvs", freq = F)
+hist(x, xlab = "x", main = "Exp(1) rvs", freq = F)
 
 # let's add the following to to double check
-x_seq <- seq(0, 5, 0.01)
+x_seq <- seq(0, 10, 0.01)
 f <- dexp(x_seq, rate = lambda)
 lines(x_seq, f, type = "l")
 ```
@@ -132,7 +132,7 @@ Write code to simulate 1000 random variables from this distribution, and visuali
 
 ```{r eval = F, echo = F}
 # F = 1/(1+e^{-x})
-u <- runif(1000, 0, 1)
+u <- runif(10000, 0, 1)
 x <- log(u/(1-u))
 hist(x, freq = F)
 ```

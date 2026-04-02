@@ -164,7 +164,7 @@
     "href": "weeks/week-07.html",
     "title": "Week 07",
     "section": "",
-    "text": "Monday (3/30)\n\nTopics\n\nNormal distribution (yay!)\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nNormal dist. practice problems\n\n\n\nWednesday (4/01)\n\nTopics\n\nExponential\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nExponential practice problems\n\n\n\nFriday (4/03)\n\nPlease bring laptops to class!\nTopics\n\nUniversality of the Uniform\nContinuous RVs in R\n\nDaily assignment\n\nNone!\n\nClass activity\n\nLive code posted after class\n\n.Rmd template for in-class activity:\nFilled in version: Filled in code",
+    "text": "Monday (3/30)\n\nTopics\n\nNormal distribution (yay!)\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nNormal dist. practice problems\n\n\n\nWednesday (4/01)\n\nTopics\n\nExponential\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nExponential practice problems\n\n\n\nFriday (4/03)\n\nPlease bring laptops to class!\nTopics\n\nUniversality of the Uniform\nContinuous RVs in R\n\nDaily assignment\n\nNone!\n\nClass activity\n\n.Rmd template for in-class activity:  .Rmd \n\nFilled in version: posted after class",
     "crumbs": [
       "Schedule",
       "Week 07"
@@ -631,5 +631,33 @@
     "title": "Law of Rare Events",
     "section": "Simulate",
     "text": "Simulate\nLet’s see which is the better approximation! The code below is provided if you’re interested, but you’re not expected to re-produce it!\n\nset.seed(1)\nn &lt;- 120\nG &lt;- 10000\ntrio_match &lt;- rep(NA, G)\nfor(g in 1:G){\n  bdays &lt;- sample(1:365, n, replace = T)\n  trio_match[g] &lt;- sum(table(bdays) &gt;= 3)\n}\nmean(trio_match &gt; 0)\n\n[1] 0.8227"
+  },
+  {
+    "objectID": "weeks/class/CA_20_universality_continuous_RVs.html",
+    "href": "weeks/class/CA_20_universality_continuous_RVs.html",
+    "title": "Continuous RVs and Universality of Uniform",
+    "section": "",
+    "text": "Built into R are some functions that work with the named continuous distributions. Recall we have the following types of functions:\nFor example:\n\ndnorm(x, mu, sigma) will evaluate the PDF of a \\(N(\\mu, \\sigma^2)\\) distribution at the value x.\npnorm(q, mu, sigma) will evaluate the CDF of a \\(N(\\mu, \\sigma^2)\\) distribution at the value q\nqnorm(p, mu, sigma) will evaluate the inverse-CDF of a \\(N(\\mu, \\sigma^2)\\) distribution at the value p\nrnorm(n, mu, sigma) will generate n random variables from the \\(N(\\mu, \\sigma^2)\\) distribution\n\nNOTE: for the _norm() functions in R, the functions expect standard deviation as input, not variance!!\n\n# X ~ N(0, 4) -&gt; What is P(X &lt;= 1)?\npnorm(1, 0, sqrt(4))\n\n[1] 0.6914625\n\n\nThe different distributions in R all follow the same format: d&lt;dist&gt;() or p&lt;dist&gt;(), and you specify the specific inputs and parameters.\n\n# Generate 10 random variables from the Unif(0,1) distribution:\nrunif(10, min = 0, max = 1)\n\n [1] 0.16445563 0.85222088 0.55369724 0.28478084 0.87018566 0.16579520\n [7] 0.14090894 0.70355037 0.01218483 0.25880324\n\n# X ~ Exp(2). What is f(1)?\ndexp(1, 2)\n\n[1] 0.2706706\n\n# Obtain median of standard normal\nqnorm(0.5, 0, 1)\n\n[1] 0"
+  },
+  {
+    "objectID": "weeks/class/CA_20_universality_continuous_RVs.html#continuous-rvs-in-r",
+    "href": "weeks/class/CA_20_universality_continuous_RVs.html#continuous-rvs-in-r",
+    "title": "Continuous RVs and Universality of Uniform",
+    "section": "",
+    "text": "Built into R are some functions that work with the named continuous distributions. Recall we have the following types of functions:\nFor example:\n\ndnorm(x, mu, sigma) will evaluate the PDF of a \\(N(\\mu, \\sigma^2)\\) distribution at the value x.\npnorm(q, mu, sigma) will evaluate the CDF of a \\(N(\\mu, \\sigma^2)\\) distribution at the value q\nqnorm(p, mu, sigma) will evaluate the inverse-CDF of a \\(N(\\mu, \\sigma^2)\\) distribution at the value p\nrnorm(n, mu, sigma) will generate n random variables from the \\(N(\\mu, \\sigma^2)\\) distribution\n\nNOTE: for the _norm() functions in R, the functions expect standard deviation as input, not variance!!\n\n# X ~ N(0, 4) -&gt; What is P(X &lt;= 1)?\npnorm(1, 0, sqrt(4))\n\n[1] 0.6914625\n\n\nThe different distributions in R all follow the same format: d&lt;dist&gt;() or p&lt;dist&gt;(), and you specify the specific inputs and parameters.\n\n# Generate 10 random variables from the Unif(0,1) distribution:\nrunif(10, min = 0, max = 1)\n\n [1] 0.16445563 0.85222088 0.55369724 0.28478084 0.87018566 0.16579520\n [7] 0.14090894 0.70355037 0.01218483 0.25880324\n\n# X ~ Exp(2). What is f(1)?\ndexp(1, 2)\n\n[1] 0.2706706\n\n# Obtain median of standard normal\nqnorm(0.5, 0, 1)\n\n[1] 0"
+  },
+  {
+    "objectID": "weeks/class/CA_20_universality_continuous_RVs.html#visualizing-densities",
+    "href": "weeks/class/CA_20_universality_continuous_RVs.html#visualizing-densities",
+    "title": "Continuous RVs and Universality of Uniform",
+    "section": "Visualizing densities",
+    "text": "Visualizing densities\nSometimes it can be helpful to visualize the density of a distribution. There are a couple ways we can do this. Let’s do this example for the \\(Unif(1, 1.5)\\) distribution.\n\nOption 1\nIf we can randomly sample from the distribution, we can generate lots and lots of random variables from that distribution and make a histogram of them!\n\n# simulate lots and lots of Unif(1, 1.5) rvs\nsims &lt;- runif(10000, 1, 1.5)\n\n# turn y-axis into a density\nhist(x = sims,  xlab = \"x\", main = \"Histogram of Unif(1, 1.5) simulations\",\n     freq = F)\n\n\n\n\n\n\n\n\n\n\nOption 2\nIf we have access to the PDF directly (which we do for the named distributions), we can simply graph the function\n\n# create a sequence of values from 0 and 10 at equally-size 0.01 increments\nx_seq &lt;- seq(0, 2, 0.01)\n\n# evaluate PDF of interest at each value in x_seq\nf &lt;- dunif(x_seq, 1, 1.5)\n\n# type = \"l\" turns into lines\nplot(x = x_seq, y = f, xlab = \"x\", ylab = \"Density\", main = \"PDF of Unif(1, 1.5)\",\n     type = \"l\")"
+  },
+  {
+    "objectID": "weeks/class/CA_20_universality_continuous_RVs.html#universality-of-uniform-probability-integral-transform",
+    "href": "weeks/class/CA_20_universality_continuous_RVs.html#universality-of-uniform-probability-integral-transform",
+    "title": "Continuous RVs and Universality of Uniform",
+    "section": "Universality of Uniform / Probability Integral Transform",
+    "text": "Universality of Uniform / Probability Integral Transform\nNow, let’s see the University of the Uniform in action! Suppose you’ve lost access to all the functions in R that allow you randomly generate rvs from all the named distribution except for the Uniform.\n\nExample 1\nHow can we simulate values from the \\(\\text{Exp}(1)\\) distribution?\n\n# generate lots of Unif(0,1) rvs\nu &lt;- runif(10000, min = 0, max = 1)\n\n# use inverse CDF that we derived\nlambda &lt;- 1\nx &lt;- (-1/lambda) * log(1 - u)\n\n# let's visualize them:\nhist(x, xlab = \"x\", main = \"Exp(1) rvs\", freq = F)\n\n# let's add the following to to double check\nx_seq &lt;- seq(0, 10, 0.01)\nf &lt;- dexp(x_seq, rate = lambda)\nlines(x_seq, f, type = \"l\")\n\n\n\n\n\n\n\n\n\n\nExample 2\nSuppose we have a distribution whose PDF is \\[f_{X}(x) = \\frac{e^{-x}}{(1 + e^{-x})^2}\\]\nfor \\(x \\in (-\\infty, \\infty)\\).\nWrite code to simulate 1000 random variables from this distribution, and visualize them as a density histogram."
   }
 ]

@@ -1,7 +1,7 @@
 ---
 title: "Continuous RVs and Universality of Uniform"
 author: "Your name"
-date: "2025-04-04"
+date: "2026-04-03"
 editor_options:
   chunk_output_type: console
 ---
@@ -70,7 +70,7 @@ Now, let's see the University of the Uniform in action! Suppose you've lost acce
 
 ### Example 1
 
-How can we simulate values from the $\text{Exp}(2)$ distribution?
+How can we simulate values from the $\text{Exp}(1)$ distribution?
 
 ```{r fig.height = 3}
 # generate lots of Unif(0,1) rvs
@@ -87,7 +87,7 @@ Suppose we have a distribution whose PDF is $$f_{X}(x) = \frac{e^{-x}}{(1 + e^{-
 
 for $x \in (-\infty, \infty)$.
 
-Write code to simulate 1000 random variables from this distribution, and and visualize them as a density histogram.
+Write code to simulate 10000 random variables from this distribution, and and visualize them as a density histogram.
 
 ```{r fig.height = 3}
 
