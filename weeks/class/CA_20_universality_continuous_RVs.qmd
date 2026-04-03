@@ -130,8 +130,8 @@ for $x \in (-\infty, \infty)$.
 
 Write code to simulate 1000 random variables from this distribution, and visualize them as a density histogram.
 
-```{r eval = F, echo = F}
-# F = 1/(1+e^{-x})
+```{r eval = T, echo = T}
+# F = e^x / (1 + e^x)
 u <- runif(10000, 0, 1)
 x <- log(u/(1-u))
 hist(x, freq = F)

@@ -3,7 +3,7 @@ title: "Week 08"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (4/07)
+### Monday (4/06)
 :::
 
 **Topics**
@@ -13,9 +13,7 @@ title: "Week 08"
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
-
--   None! But the [attached PDF](daily/DA_20.pdf) contains the learning objectives for today's class.
+-   None! But the [attached PDF](daily/DA_21.pdf) contains the learning objectives for today's class.
 -   Maybe get a head start on reviewing power and Taylor series from Calc 2 for next class, by reviewing notes from previous semesters or watching [this video](https://expl.ai/EQDQEDX) (also linked in next daily assignment)
 
 **Class activity**
@@ -25,7 +23,7 @@ To be completed and submitted to Canvas by 7:45am
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (4/09)
+### Wednesday (4/08)
 :::
 
 **Topics**
@@ -34,20 +32,32 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_21.pdf) (I don't suggest completing until after Monday's class, as content requires concepts from Monday!)
+-   Daily assignment (I don't suggest completing until after Monday's class, as content requires concepts from Monday!)
 
 **Class activity**
 
--   [Class activity](class/CA_21.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (4/11)
+### Friday (4/10)
 :::
 
 *Last day to drop classes*
 
-**Spring symposium! No class or office hours!**
+**Topics**
+
+-   Joint distributions
+
+**Daily assignment**
+
+To be completed and submitted to Canvas by 9:00am
+
+-   Daily assignment
+
+**Class activity**
+
+-   TBD
