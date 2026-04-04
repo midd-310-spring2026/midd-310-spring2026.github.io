@@ -51,7 +51,7 @@ A tentative high-level overview of the semester's topics are presented here. Top
 -   Exponential distribution
 -   Continuous RVs in `R`
 
-### Week 8
+### [Week 8](weeks/week-08.qmd)
 
 -   Moments
 -   MGFs
