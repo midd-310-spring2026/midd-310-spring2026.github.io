@@ -34,7 +34,7 @@ title: "Week 08"
 
 To be completed and submitted to Canvas by 9:00am
 
--   Daily assignment (I don't suggest completing until after Monday's class, as content requires concepts from Monday!)
+-   [Daily assignment](daily/DA_22.pdf)
 
 **Class activity**
 
