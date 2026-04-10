@@ -1,0 +1,11 @@
+---
+title: "Fixing my error!"
+---
+
+We have $f_{X,Y}(x,y) = \frac{5}{4}(x^2 + y)$ for $0 < y < 1-x^2$. To find the marginal for $Y$, we integrate out $X$ from the joint PDF. I was being extremely incorrect in my bounds of integration! Note that $$0 < y < 1-x^2 \iff x^2 < 1- y \iff -\sqrt{1-y} < x < \sqrt{1-y}$$
+
+So I will marginalize out $X$ over these $Y$ values:
+
+\begin{align*}
+f_{Y}(y) = \int_{x=-\sqrt{1-y}}^{\sqrt{1-y}}\frac{5}{4}(x^2 + y) dx = \ldots = \frac{5}{6}(1+2y) \left(\sqrt{1-y} \right) \qquad y \in (0,1)
+\end{align*}

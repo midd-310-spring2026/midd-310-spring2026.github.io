@@ -60,4 +60,4 @@ To be completed and submitted to Canvas by **10:00am**
 
 **Class activity**
 
--   TBD
+-   [Fixed problem](class/day23_fix.qmd) from class
