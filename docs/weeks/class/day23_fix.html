@@ -186,10 +186,10 @@ window.Quarto = {
 </header>
 
 
-<p>We have <span class="math inline">\(f_{X,Y}(x,y) = \frac{5}{4}(x^2 + y)\)</span> for <span class="math inline">\(0 &lt; y &lt; 1-x^2\)</span>. To find the marginal for <span class="math inline">\(Y\)</span>, we integrate out <span class="math inline">\(X\)</span> from the joint PDF. I was being extremely incorrect in my bounds of integration! Note that <span class="math display">\[0 &lt; y &lt; 1-x^2 \iff x^2 &lt; 1- y \iff -\sqrt{1-y} &lt; x &lt; \sqrt{1-y}\]</span></p>
+<p>We have <span class="math inline">\(f_{X,Y}(x,y) = \frac{5}{4}(x^2 + y)\)</span> for <span class="math inline">\(0 &lt; y &lt; 1-x^2\)</span>. To find the margingal for <span class="math inline">\(Y\)</span>, we integrate out <span class="math inline">\(X\)</span> from the joint PDF. I was being extremely uncareful in my bounds of integration! Note that <span class="math display">\[0 &lt; y &lt; 1-x^2 \iff x^2 &lt; 1- y \iff -\sqrt{1-y} &lt; x &lt; \sqrt{1-y}\]</span></p>
 <p>So I will marginalize out <span class="math inline">\(X\)</span> over these <span class="math inline">\(Y\)</span> values:</p>
 <p><span class="math display">\[\begin{align*}
-f_{Y}(y) = \int_{x=-\sqrt{1-y}}^{\sqrt{1-y}}\frac{5}{4}(x^2 + y) dx = \ldots = \frac{5}{6}(1+2y) \left(\sqrt{1-y} \right) \qquad y \in (0,1)
+f_{Y}(y) = \int_{x=-\sqrt{1-y}}^{\sqrt{1-y}}\frac{5}{4}(x^2 + y) dx = \ldots = \frac{5}{4} \left(\frac{2}{3} + 4\sqrt{1-y} \right) \qquad y \in (0,1)
 \end{align*}\]</span></p>
 
 

@@ -669,6 +669,6 @@
     "href": "weeks/class/day23_fix.html",
     "title": "Fixing my error!",
     "section": "",
-    "text": "We have \\(f_{X,Y}(x,y) = \\frac{5}{4}(x^2 + y)\\) for \\(0 &lt; y &lt; 1-x^2\\). To find the marginal for \\(Y\\), we integrate out \\(X\\) from the joint PDF. I was being extremely incorrect in my bounds of integration! Note that \\[0 &lt; y &lt; 1-x^2 \\iff x^2 &lt; 1- y \\iff -\\sqrt{1-y} &lt; x &lt; \\sqrt{1-y}\\]\nSo I will marginalize out \\(X\\) over these \\(Y\\) values:\n\\[\\begin{align*}\nf_{Y}(y) = \\int_{x=-\\sqrt{1-y}}^{\\sqrt{1-y}}\\frac{5}{4}(x^2 + y) dx = \\ldots = \\frac{5}{6}(1+2y) \\left(\\sqrt{1-y} \\right) \\qquad y \\in (0,1)\n\\end{align*}\\]"
+    "text": "We have \\(f_{X,Y}(x,y) = \\frac{5}{4}(x^2 + y)\\) for \\(0 &lt; y &lt; 1-x^2\\). To find the margingal for \\(Y\\), we integrate out \\(X\\) from the joint PDF. I was being extremely uncareful in my bounds of integration! Note that \\[0 &lt; y &lt; 1-x^2 \\iff x^2 &lt; 1- y \\iff -\\sqrt{1-y} &lt; x &lt; \\sqrt{1-y}\\]\nSo I will marginalize out \\(X\\) over these \\(Y\\) values:\n\\[\\begin{align*}\nf_{Y}(y) = \\int_{x=-\\sqrt{1-y}}^{\\sqrt{1-y}}\\frac{5}{4}(x^2 + y) dx = \\ldots = \\frac{5}{4} \\left(\\frac{2}{3} + 4\\sqrt{1-y} \\right) \\qquad y \\in (0,1)\n\\end{align*}\\]"
   }
 ]
