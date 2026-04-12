@@ -193,7 +193,7 @@
     "href": "weeks/week-09.html",
     "title": "Week 09",
     "section": "",
-    "text": "Monday (4/13)\n\nTopics\n\nMidterm 2 details announced!\nJoint dist. (cont.)\n2D LoTUS\n\nDaily assignment\nNone!\nClass activity\n\nPractice problems\nNote: extra video going through a few more joint distribution problems if you’d like more examples!\n\n\n\nWednesday (4/15)\n\n\nPre-registration dessert social today 3:30-4:30pm in WNS 105!\n\nTopics\n\nCovariance and correlation\nMultinomial\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (4/17)\n\nNo class! Spring symposium!"
+    "text": "Monday (4/13)\n\nTopics\n\nMidterm 2 details announced!\nJoint dist. (cont.)\n2D LoTUS\n\nDaily assignment\nNone!\nClass activity\n\nExtra video going through a few more joint distribution problems if you’d like more examples!\n\n\n\nWednesday (4/15)\n\n\nPre-registration dessert social today 3:30-4:30pm in WNS 105!\n\nTopics\n\nCovariance and correlation\nMultinomial\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am (sorry!)\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (4/17)\n\nNo class! Spring symposium!"
   },
   {
     "objectID": "weeks/week-10.html",
@@ -375,7 +375,7 @@
     "href": "assessments/exam.html",
     "title": "Assessments",
     "section": "",
-    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems are available here!\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
+    "text": "Thursday, April 23 from 7:00-9:00pm in WNS 105\nContent through Wednesday, April 15 is fair game\nYou are allowed one, double-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports), means, variances, and MGFs for our named distributions that we’ve learned. Some of them will most likely appear on the midterm.\n\nPractice problems will be made available towards the end of Week 9"
   },
   {
     "objectID": "schedule.html#spring-break",
@@ -605,8 +605,8 @@
     "objectID": "assessments/exam.html#midterm-1",
     "href": "assessments/exam.html#midterm-1",
     "title": "Assessments",
-    "section": "",
-    "text": "Friday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\n\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems are available here!\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
+    "section": "Midterm 1",
+    "text": "Midterm 1\n\nWhat and when\n\nFriday, March 13 from 1:15-3:15pm in WNS 011 (our usual classroom)\nContent through Friday, March 6 is fair game\nYou are allowed one, single-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports) and means for our named distributions that we’ve learned through March 6. Some of them will most likely appear on the midterm and I will not provide their PMFs for you.\n\nProblem set 5 will be due the Friday before spring break\n\n\n\nStudy tips\n\nReview notes and homework, do the extra practice problems associated with each class\nExtra practice problems are available here!\nCome to office hours!!\nMy personal working strategy:\n\nFirst review your notes\nMake a first draft of your note sheet, then do some practice problems using only your note sheet to see if what you wrote on it is actually useful for you\nMake a new note sheet\nRepeat as necessary"
   },
   {
     "objectID": "weeks/class/LoRE.html",
@@ -670,5 +670,12 @@
     "title": "Fixing my error!",
     "section": "",
     "text": "We have \\(f_{X,Y}(x,y) = \\frac{5}{4}(x^2 + y)\\) for \\(0 &lt; y &lt; 1-x^2\\). To find the margingal for \\(Y\\), we integrate out \\(X\\) from the joint PDF. I was being extremely uncareful in my bounds of integration! Note that \\[0 &lt; y &lt; 1-x^2 \\iff x^2 &lt; 1- y \\iff -\\sqrt{1-y} &lt; x &lt; \\sqrt{1-y}\\]\nSo I will marginalize out \\(X\\) over these \\(Y\\) values:\n\\[\\begin{align*}\nf_{Y}(y) = \\int_{x=-\\sqrt{1-y}}^{\\sqrt{1-y}}\\frac{5}{4}(x^2 + y) dx = \\ldots = \\frac{5}{4} \\left(\\frac{2}{3} + 4\\sqrt{1-y} \\right) \\qquad y \\in (0,1)\n\\end{align*}\\]"
+  },
+  {
+    "objectID": "assessments/exam.html#midterm-2",
+    "href": "assessments/exam.html#midterm-2",
+    "title": "Assessments",
+    "section": "",
+    "text": "Thursday, April 23 from 7:00-9:00pm in WNS 105\nContent through Wednesday, April 15 is fair game\nYou are allowed one, double-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports), means, variances, and MGFs for our named distributions that we’ve learned. Some of them will most likely appear on the midterm.\n\nPractice problems will be made available towards the end of Week 9"
   }
 ]

@@ -4,6 +4,17 @@ sidebar: false
 toc: true
 ---
 
+## **Midterm 2**
+
+-   Thursday, April 23 from 7:00-9:00pm in WNS 105
+-   Content through Wednesday, April 15 is fair game
+-   You are allowed one, double-sided note sheet (8.5x11 inches)
+    -   Your note sheet cannot include any worked out examples/derivations
+    -   I **highly recommend** you write out the PMFs (including supports), means, variances, and MGFs for our named distributions that we've learned. Some of them will most likely appear on the midterm.
+-   Practice problems will be made available towards the end of Week 9
+
+------------------------------------------------------------------------
+
 ## **Midterm 1**
 
 ### What and when

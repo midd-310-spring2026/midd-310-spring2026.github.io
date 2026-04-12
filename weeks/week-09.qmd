@@ -18,8 +18,7 @@ None!
 
 **Class activity**
 
--   Practice problems
--   Note: extra video going through a few more joint distribution problems if you'd like more examples!
+-   Extra video going through a few more joint distribution problems if you'd like more examples!
 
 ------------------------------------------------------------------------
 
@@ -38,9 +37,9 @@ None!
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 9:00am
+To be completed and submitted to Canvas by 9:00am (sorry!)
 
--   Daily assignment
+-   [Daily assignment](daily/DA_25.pdf)
 
 **Class activity**
 
