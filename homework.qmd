@@ -26,3 +26,5 @@ Note: problem sets will be updated with new questions following each class. Comp
     -   Due 4/07 at 11:59pm
 -   [Problem Set 7](weeks/hw/310_hw7.pdf): covers material from 4/06-4/10
     -   Due 4/14 at 11:59pm
+-   [Problem Set 8](weeks/hw/310_hw8.pdf): covers material from 4/13-4/15
+    -   Due **Monday** 4/20 at 11:59pm (note earlier due date due to shorter problem set + time to grade before Midterm 2)

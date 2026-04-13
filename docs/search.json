@@ -110,7 +110,7 @@
     "href": "homework.html",
     "title": "Homework",
     "section": "",
-    "text": "Note: problem sets will be updated with new questions following each class. Completed homework should be submitted to Canvas unless otherwise noted.\n\nProblem Set 1: covers material from 2/09-2/13\n\nDue: 2/17 at 11:59pm\n\nProblem Set 2: covers material from 2/16-2/20\n\nDue: 2/24 at 11:59pm\nAssociated .Rmd file:  hw2_R \n\nProblem Set 3: covers material from 2/23-2/27\n\nDue 3/03 at 11:59pm\n\nProblem Set 4: covers material from 3/02-3/06\n\nDue 3/10 at 11:59pm\n\nProblem Set 5:\n\nNote: there was a typo on question 1. In the theorem, the term on the right should be \\((1+v)^{-n}\\), not \\((1+v)^{n}\\). (Fixed as of 9:00pm 3/17)\nOption 1: covers material from 3/09-3/16\n\nDue 3/20 at 11:59pm\n\nOption 2: covers material from 3/09-3/18\n\nDue: 3/30 at 11:59pm\n\n\nProblem Set 6 (stick with the option you did for Problem Set 5)\n\nOption 1: covers material from 3/18-4/03\nOption 2: covers material from 3/20-4/03\nDue 4/07 at 11:59pm\n\nProblem Set 7: covers material from 4/06-4/10\n\nDue 4/14 at 11:59pm"
+    "text": "Note: problem sets will be updated with new questions following each class. Completed homework should be submitted to Canvas unless otherwise noted.\n\nProblem Set 1: covers material from 2/09-2/13\n\nDue: 2/17 at 11:59pm\n\nProblem Set 2: covers material from 2/16-2/20\n\nDue: 2/24 at 11:59pm\nAssociated .Rmd file:  hw2_R \n\nProblem Set 3: covers material from 2/23-2/27\n\nDue 3/03 at 11:59pm\n\nProblem Set 4: covers material from 3/02-3/06\n\nDue 3/10 at 11:59pm\n\nProblem Set 5:\n\nNote: there was a typo on question 1. In the theorem, the term on the right should be \\((1+v)^{-n}\\), not \\((1+v)^{n}\\). (Fixed as of 9:00pm 3/17)\nOption 1: covers material from 3/09-3/16\n\nDue 3/20 at 11:59pm\n\nOption 2: covers material from 3/09-3/18\n\nDue: 3/30 at 11:59pm\n\n\nProblem Set 6 (stick with the option you did for Problem Set 5)\n\nOption 1: covers material from 3/18-4/03\nOption 2: covers material from 3/20-4/03\nDue 4/07 at 11:59pm\n\nProblem Set 7: covers material from 4/06-4/10\n\nDue 4/14 at 11:59pm\n\nProblem Set 8: covers material from 4/13-4/15\n\nDue Monday 4/20 at 11:59pm (note earlier due date due to shorter problem set + time to grade before Midterm 2)"
   },
   {
     "objectID": "index.html#major-announcements",
@@ -193,7 +193,11 @@
     "href": "weeks/week-09.html",
     "title": "Week 09",
     "section": "",
-    "text": "Monday (4/13)\n\nTopics\n\nMidterm 2 details announced!\nJoint dist. (cont.)\n2D LoTUS\n\nDaily assignment\nNone!\nClass activity\n\nExtra video going through a few more joint distribution problems if you’d like more examples!\n\n\n\nWednesday (4/15)\n\n\nPre-registration dessert social today 3:30-4:30pm in WNS 105!\n\nTopics\n\nCovariance and correlation\nMultinomial\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am (sorry!)\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (4/17)\n\nNo class! Spring symposium!"
+    "text": "Monday (4/13)\n\nTopics\n\nMidterm 2 details announced!\nJoint dist. (cont.)\n2D LoTUS\n\nDaily assignment\nNone!\nClass activity\n\nNone!\n\n\n\nWednesday (4/15)\n\n\nPre-registration dessert social today 3:30-4:30pm in WNS 105!\n\nTopics\n\nCovariance and correlation\nMultinomial\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am (sorry!)\n\nDaily assignment\n\nClass activity\n\nClass activity\n\n\n\nFriday (4/17)\n\nNo class! Spring symposium!",
+    "crumbs": [
+      "Schedule",
+      "Week 09"
+    ]
   },
   {
     "objectID": "weeks/week-10.html",
