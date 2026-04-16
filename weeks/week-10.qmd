@@ -3,7 +3,7 @@ title: "Week 10"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (4/21)
+### Monday (4/20)
 :::
 
 **Topics**
@@ -12,19 +12,19 @@ title: "Week 10"
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_25.pdf) (a bit longer because the example is long; please plan accordingly)
+-   Daily assignment (a bit longer because the example is long; please plan accordingly)
     -   Note the optional refresher video on change-of-variable from Calculus!
 
 **Class activity**
 
--   [Class activity](class/CA_25.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (4/23)
+### Wednesday (4/22)
 :::
 
 **Topics**
@@ -34,19 +34,21 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
--   [Daily assignment](daily/DA_26.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_26.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (4/25)
+### Friday (4/24)
 :::
 
 **Topics**
+
+-   Order statistics
 
 **Daily assignment**
 
@@ -54,4 +56,4 @@ To be completed and submitted to Canvas by 7:45am
 
 **Class activity**
 
--   None!
+-   TBD
