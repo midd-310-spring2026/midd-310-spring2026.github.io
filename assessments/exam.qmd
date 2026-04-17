@@ -11,7 +11,7 @@ toc: true
 -   You are allowed one, double-sided note sheet (8.5x11 inches)
     -   Your note sheet cannot include any worked out examples/derivations
     -   I **highly recommend** you write out the PMFs (including supports), means, variances, and MGFs for our named distributions that we've learned. Some of them will most likely appear on the midterm.
--   Practice problems will be made available towards the end of Week 9
+-   Practice problems are made available [here](midterm2_practice_probs.pdf)! Note that they are not exhaustive.
 
 ------------------------------------------------------------------------
 
