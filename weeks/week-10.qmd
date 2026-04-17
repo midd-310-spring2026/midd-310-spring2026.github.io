@@ -14,8 +14,7 @@ title: "Week 10"
 
 To be completed and submitted to Canvas by 9:00am
 
--   Daily assignment (a bit longer because the example is long; please plan accordingly)
-    -   Note the optional refresher video on change-of-variable from Calculus!
+-   [Daily assignment](daily/DA_26.pdf) (a bit longer because the example is long; please plan accordingly)
 
 **Class activity**
 
@@ -34,7 +33,7 @@ To be completed and submitted to Canvas by 9:00am
 
 **Daily assignment**
 
--   Daily assignment
+-   None!
 
 **Class activity**
 
