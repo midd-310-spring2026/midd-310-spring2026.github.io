@@ -3,7 +3,7 @@ title: "Week 11"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (4/28)
+### Monday (4/27)
 :::
 
 **Topics**
@@ -12,18 +12,18 @@ title: "Week 11"
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_28.pdf)
+-   [Daily assignment](daily/DA_29.pdf)
 
 **Class activity**
 
--   [Class activity](class/CA_28.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (4/28)
+### Wednesday (4/29)
 :::
 
 **Topics**
@@ -32,18 +32,18 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_29.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_29.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (5/02)
+### Friday (5/01)
 :::
 
 **Topics**
@@ -52,10 +52,10 @@ To be completed and submitted to Canvas by 7:45am
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_30.pdf)
+-   Daily assignment
 
 **Class activity**
 
--   [Class activity](class/CA_30.pdf)
+-   Class activity
