@@ -18,7 +18,7 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class activity**
 
--   Class activity
+-   [Conditional expectation (given event) practice problems](class/CA_29.pdf)
 
 ------------------------------------------------------------------------
 
@@ -34,7 +34,7 @@ To be completed and submitted to Canvas by 9:00am
 
 To be completed and submitted to Canvas by 9:00am
 
--   Daily assignment
+-   [Daily assignment](daily/DA_30.pdf)
 
 **Class activity**
 
@@ -46,16 +46,16 @@ To be completed and submitted to Canvas by 9:00am
 ### Friday (5/01)
 :::
 
+No in-person class today!!
+
 **Topics**
 
 -   Conditional variance
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 9:00am
-
--   Daily assignment
+-   None!
 
 **Class activity**
 
--   Class activity
+-   Please watch this video replacing lecture!!
