@@ -38,7 +38,7 @@ To be completed and submitted to Canvas by 9:00am
 
 **Class activity**
 
--   Class activity
+-   [Conditional expectation (given RV) practice problems](class/CA_30.pdf)
 
 ------------------------------------------------------------------------
 
