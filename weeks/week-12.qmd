@@ -3,7 +3,7 @@ title: "Week 12"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (5/05)
+### Monday (5/04)
 :::
 
 **Topics**
@@ -12,18 +12,18 @@ title: "Week 12"
 
 **Daily assignment**
 
-To be completed and submitted to Canvas by 7:45am
+To be completed and submitted to Canvas by 9:00am
 
--   [Daily assignment](daily/DA_31.pdf) (last one!)
+-   [Daily assignment](daily/DA_32.pdf) (last one!)
 
 **Class activity**
 
--   [Class activity](class/CA_31.pdf)
+-   Class activity
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Wednesday (5/07)
+### Wednesday (5/06)
 :::
 
 **Topics**
@@ -32,12 +32,12 @@ To be completed and submitted to Canvas by 7:45am
 
 **Class activity**
 
--   [Code and plots](class/CA_32_LLN.qmd) for LLN and MC integration
+-   Code and plots for LLN and MC integration
 
 ------------------------------------------------------------------------
 
 ::: {style="color: #F66D7A"}
-### Friday (5/09)
+### Friday (5/07)
 :::
 
 **Topics**
@@ -47,4 +47,4 @@ To be completed and submitted to Canvas by 7:45am
 
 **Class activity**
 
--   [Plot](class/CA_33_CLT.qmd) for CLT demo
+-   Plot for CLT demo
