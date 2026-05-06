@@ -1,6 +1,8 @@
 ---
 title: "Law of Large Numbers"
 format: pdf
+editor_options: 
+  chunk_output_type: console
 ---
 
 ```{r message= F, echo = F, warning = F}
@@ -8,11 +10,11 @@ library(tidyverse)
 library(patchwork)
 ```
 
-# Coin flips
+# WLLN for coin flips
 
 $X_{1}, X_{2},\ldots$ are IID $\text{Bern}(1/4)$ random variables, where $X_{i}$ is indicator of Heads. Then $\bar{X}_{n}$ is the proportion of Heads in our $n$ tosses.
 
-The WLLN tells us that as $n$ increases, then for any $\epsilon > 0$, the probability that $\bar{X}_{n}$ is more than $\epsilon$ away from its mean of $1/4$ can be made arbitrarily small. 
+The WLLN tells us that as $n$ increases, then for any $\epsilon > 0$, the probability that $\bar{X}_{n}$ is more than $\epsilon$ away from its mean of $1/4$ can be made arbitrarily small.
 
 In the following plot, we simulate 5 different running means, represented by the colors of the lines. The dashed horizontal bands represent varying $\epsilon$.
 
@@ -58,9 +60,9 @@ a <- 0.1
 c <- 4
 ```
 
-Suppose $X \sim \text{Beta}(`r alpha`, `r beta`)$ and I want to approximate $P(`r a` < X < `r b`)$ (i.e. the shaded area below). I know I can evaluate the function/PDF of $X$ using `dbeta()` or by hand, but suppose I do not have access to `pbeta()` for probabilities. 
+Suppose $X \sim \text{Beta}(`r alpha`, `r beta`)$ and I want to approximate $P(`r a` < X < `r b`)$ (i.e. the shaded area below). I know I can evaluate the function/PDF of $X$ using `pbeta()` or by hand, but suppose I do not have access to `pbeta()` for probabilities.
 
-```{r echo = F, fig.height=2, fig.width=5}
+```{r echo = F, fig.height=4, fig.width=7, warning = F}
 df <- data.frame(x = c(a, a, b, a),
                       xend = c(a, b, b,b),
                       y = c(0, 
@@ -81,23 +83,34 @@ p1 <- ggplot() +
 p2 <- p1 + 
   geom_segment(data = df, aes(x= x, xend = xend, y = y, yend = yend), linetype = "dashed") +
   xlim(c(0,1))
-p2
+p1 + p2
 ```
 
 Monte Carlo will help us! We have to come up with a bounding region to sample uniform points from. Well, we want $x \in (`r a`, `r b`)$. For the y-axis, we see that any $c$ greater than roughly 3.25 will do the trick. We will use $c = `r c`$. Our bounding rectangle is depicted above.
 
+Then we need to:
+
+1.  Sample a point $(x_{j}, y_{j})$ uniformly within the rectangle
+2.  Evaluate the function of interest at the sampled $x_{j}$. In this case, the function is the $\text{Beta}(`r alpha`, `r beta`)$ PDF: $$f_{X}(x_{j}) = \frac{\Gamma(`r alpha` + `r beta`)}{\Gamma(`r alpha`)\Gamma(`r beta`)} x_{j}^{`r alpha` - 1}(1 - x_{j})^{`r beta` - 1}$$ Thankfully we can used the `dbeta()` function to do this for us!
+3.  Record if $y_{j} < f_{X}(x_{j})$
+4.  Repeat!
+
 ```{r echo = T, eval = T}
-# simulate uniformly within bounding rectangle
+# simulate 5000 points uniformly within bounding rectangle
 set.seed(1)
 B <- 5000
+c <- 4
 x <- runif(B, 0.1, 0.2)
-y <- runif(B, 0, 4)
+y <- runif(B, 0, c)
 
-# obtain proportion that fall into area under curve
-under <- mean(y <= dbeta(x, 3, 9))
+# evaluate function at each point
+f_x <- dbeta(x, 3, 9)
+
+# proportion of sampled points that fall into shaded region of interest
+under <- mean(y < f_x)
 
 # multiply by bounding rectangle area 
-mc_approx <- under * 4 * (0.2 - 0.1)
+mc_approx <- under * c * (0.2 - 0.1)
 ```
 
 So our Monte Carlo approximation to the integral is `r mc_approx`.
@@ -116,7 +129,7 @@ set.seed(10)
 # choose area of circle/dart board
 r <- 3
 
-# sample uniformly within square
+# sample uniformly within square on (-r, r)
 n <- 10000
 x <- runif(n, -r, r)
 y <- runif(n, -r, r)
@@ -139,6 +152,5 @@ data.frame(x, y, in_circle) |>
   theme(axis.ticks = element_blank(), axis.title = element_blank(),
         axis.text = element_blank())
 ```
-
 
 Our estimate of $\pi$ is `r mc_pi`, which is pretty good!

@@ -693,5 +693,26 @@
     "title": "Assessments",
     "section": "",
     "text": "Thursday, April 23 from 7:00-9:00pm in WNS 105\nContent through Wednesday, April 15 is fair game\nYou are allowed one, double-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports), means, variances, and MGFs for our named distributions that we’ve learned. Some of them will most likely appear on the midterm.\n\nPractice problems are made available here! Note that they are not exhaustive."
+  },
+  {
+    "objectID": "weeks/class/CA_33_LLN.html",
+    "href": "weeks/class/CA_33_LLN.html",
+    "title": "Law of Large Numbers",
+    "section": "",
+    "text": "\\(X_{1}, X_{2},\\ldots\\) are IID \\(\\text{Bern}(1/4)\\) random variables, where \\(X_{i}\\) is indicator of Heads. Then \\(\\bar{X}_{n}\\) is the proportion of Heads in our \\(n\\) tosses.\nThe WLLN tells us that as \\(n\\) increases, then for any \\(\\epsilon &gt; 0\\), the probability that \\(\\bar{X}_{n}\\) is more than \\(\\epsilon\\) away from its mean of \\(1/4\\) can be made arbitrarily small.\nIn the following plot, we simulate 5 different running means, represented by the colors of the lines. The dashed horizontal bands represent varying \\(\\epsilon\\)."
+  },
+  {
+    "objectID": "weeks/class/CA_33_LLN.html#estimating-beta-probability",
+    "href": "weeks/class/CA_33_LLN.html#estimating-beta-probability",
+    "title": "Law of Large Numbers",
+    "section": "Estimating Beta probability",
+    "text": "Estimating Beta probability\nSuppose \\(X \\sim \\text{Beta}(3, 9)\\) and I want to approximate \\(P(0.1 &lt; X &lt; 0.2)\\) (i.e. the shaded area below). I know I can evaluate the function/PDF of \\(X\\) using pbeta() or by hand, but suppose I do not have access to pbeta() for probabilities.\n\n\n\n\n\n\n\n\n\nMonte Carlo will help us! We have to come up with a bounding region to sample uniform points from. Well, we want \\(x \\in (0.1, 0.2)\\). For the y-axis, we see that any \\(c\\) greater than roughly 3.25 will do the trick. We will use \\(c = 4\\). Our bounding rectangle is depicted above.\nThen we need to:\n\nSample a point \\((x_{j}, y_{j})\\) uniformly within the rectangle\nEvaluate the function of interest at the sampled \\(x_{j}\\). In this case, the function is the \\(\\text{Beta}(3, 9)\\) PDF: \\[f_{X}(x_{j}) = \\frac{\\Gamma(3 + 9)}{\\Gamma(3)\\Gamma(9)} x_{j}^{3 - 1}(1 - x_{j})^{9 - 1}\\] Thankfully we can used the dbeta() function to do this for us!\nRecord if \\(y_{j} &lt; f_{X}(x_{j})\\)\nRepeat!\n\n\n# simulate 5000 points uniformly within bounding rectangle\nset.seed(1)\nB &lt;- 5000\nc &lt;- 4\nx &lt;- runif(B, 0.1, 0.2)\ny &lt;- runif(B, 0, c)\n\n# evaluate function at each point\nf_x &lt;- dbeta(x, 3, 9)\n\n# proportion of sampled points that fall into shaded region of interest\nunder &lt;- mean(y &lt; f_x)\n\n# multiply by bounding rectangle area \nmc_approx &lt;- under * c * (0.2 - 0.1)\n\nSo our Monte Carlo approximation to the integral is 0.29024.\nSuppose we suddenly have access to the CDF function pbeta()! Let’s compare our MC approximation to the truth:\n\npbeta(0.2, 3, 9) - pbeta(0.1, 3, 9)\n\n[1] 0.2930366"
+  },
+  {
+    "objectID": "weeks/class/CA_33_LLN.html#estimating-pi",
+    "href": "weeks/class/CA_33_LLN.html#estimating-pi",
+    "title": "Law of Large Numbers",
+    "section": "Estimating \\(pi\\)",
+    "text": "Estimating \\(pi\\)\n\nset.seed(10)\n\n# choose area of circle/dart board\nr &lt;- 3\n\n# sample uniformly within square on (-r, r)\nn &lt;- 10000\nx &lt;- runif(n, -r, r)\ny &lt;- runif(n, -r, r)\n\n# determine which points are in the circle\nin_circle &lt;- x^2 + y^2 &lt;= r^2\n\n# mc approximation\nmc_pi &lt;- 4 * sum(in_circle)/n\n\n\n\n\n\n\n\n\n\n\nOur estimate of \\(\\pi\\) is 3.1432, which is pretty good!"
   }
 ]
