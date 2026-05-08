@@ -117,7 +117,7 @@
     "href": "index.html#major-announcements",
     "title": "Probability",
     "section": "Major Announcements",
-    "text": "Major Announcements\n\nShingo’s modified office hours Tuesday 5/5: 7:30-9:30pm"
+    "text": "Major Announcements\n\nOffice hours during Week of 5/11:\n\nTuesday 5/12: 1:00-2:00pm\nWednesday 5/13: 3:30-4:30pm\nThursday 5/14: 1:00-2:00pm\nFriday 5/15: 11:00-12:00pm"
   },
   {
     "objectID": "weeks/week-04.html",
@@ -240,7 +240,7 @@
     "href": "weeks/week-12.html",
     "title": "Week 12",
     "section": "",
-    "text": "Monday (5/04)\n\nTopics\n\nInequalities\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment (last one!)\n\nClass activity\n\nInequalities worksheet\n\n\n\nWednesday (5/06)\n\nTopics\n\nLaw of Large Numbers!\n\nClass activity\n\nCode and plots for LLN and MC integration\n\n\n\nFriday (5/07)\n\nTopics\n\nCentral Limit Theorem!\nCRFs\n\nClass activity\n\nPlot for CLT demo",
+    "text": "Monday (5/04)\n\nTopics\n\nInequalities\n\nDaily assignment\nTo be completed and submitted to Canvas by 9:00am\n\nDaily assignment (last one!)\n\nClass activity\n\nInequalities worksheet\n\n\n\nWednesday (5/06)\n\nTopics\n\nLaw of Large Numbers!\n\nClass activity\n\nCode and plots for LLN and MC integration\n\n\n\nFriday (5/07)\n\nTopics\n\nCentral Limit Theorem!\nCRFs\n\nClass activity\n\nPlots for CLT",
     "crumbs": [
       "Schedule",
       "Week 12"
@@ -391,7 +391,7 @@
     "href": "assessments/exam.html",
     "title": "Assessments",
     "section": "",
-    "text": "Thursday, April 23 from 7:00-9:00pm in WNS 105\nContent through Wednesday, April 15 is fair game\nYou are allowed one, double-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports), means, variances, and MGFs for our named distributions that we’ve learned. Some of them will most likely appear on the midterm.\n\nPractice problems are made available here! Note that they are not exhaustive."
+    "text": "Friday, May 15 from 7:00-10:00pm in WNS 011. Sorry about the evening exam :(\nThe exam is cumulative, but with a slight emphasis on material from Weeks 10-12\nYou are allowed one, double-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nYou will get this distribution sheet with your exam! Make sure you understand it!\n\nPractice problems will be made available over the weekend. Note that they are not exhaustive!"
   },
   {
     "objectID": "schedule.html#spring-break",
@@ -691,8 +691,8 @@
     "objectID": "assessments/exam.html#midterm-2",
     "href": "assessments/exam.html#midterm-2",
     "title": "Assessments",
-    "section": "",
-    "text": "Thursday, April 23 from 7:00-9:00pm in WNS 105\nContent through Wednesday, April 15 is fair game\nYou are allowed one, double-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports), means, variances, and MGFs for our named distributions that we’ve learned. Some of them will most likely appear on the midterm.\n\nPractice problems are made available here! Note that they are not exhaustive."
+    "section": "Midterm 2",
+    "text": "Midterm 2\n\nThursday, April 23 from 7:00-9:00pm in WNS 105\nContent through Wednesday, April 15 is fair game\nYou are allowed one, double-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nI highly recommend you write out the PMFs (including supports), means, variances, and MGFs for our named distributions that we’ve learned. Some of them will most likely appear on the midterm.\n\nPractice problems are made available here! Note that they are not exhaustive."
   },
   {
     "objectID": "weeks/class/CA_33_LLN.html",
@@ -714,5 +714,33 @@
     "title": "Law of Large Numbers",
     "section": "Estimating \\(pi\\)",
     "text": "Estimating \\(pi\\)\n\nset.seed(10)\n\n# choose area of circle/dart board\nr &lt;- 3\n\n# sample uniformly within square on (-r, r)\nn &lt;- 10000\nx &lt;- runif(n, -r, r)\ny &lt;- runif(n, -r, r)\n\n# determine which points are in the circle\nin_circle &lt;- x^2 + y^2 &lt;= r^2\n\n# mc approximation\nmc_pi &lt;- 4 * sum(in_circle)/n\n\n\n\n\n\n\n\n\n\n\nOur estimate of \\(\\pi\\) is 3.1432, which is pretty good!"
+  },
+  {
+    "objectID": "weeks/class/clt_continuity.html",
+    "href": "weeks/class/clt_continuity.html",
+    "title": "CLT",
+    "section": "",
+    "text": "\\(X_{1}, X_{2},\\ldots\\) are IID \\(\\text{Bern}(1/4)\\) random variables, where \\(X_{i}\\) is indicator of Heads. Then \\(\\bar{X}_{n}\\) is the proportion of Heads in our \\(n\\) tosses.\nWe will see the CLT approximation to \\(\\bar{X}_{n}\\) and \\(\\sum_{i=1}^{n} X_{i}\\) as \\(n\\) increases from 5 through 300. Remember, CLT tells us that\n\\[\n\\bar{X}_{n} \\overset{\\cdot}{\\sim} N\\left(0.25, \\frac{0.25(0.75)}{n}\\right) \\qquad \\text{ and } \\qquad  \\sum_{i=1}^{n} X_{i} \\overset{\\cdot}{\\sim} N\\left(0.25 n, 0.25(0.75)n \\right)\n\\]"
+  },
+  {
+    "objectID": "weeks/class/clt_continuity.html#clt-in-action",
+    "href": "weeks/class/clt_continuity.html#clt-in-action",
+    "title": "CLT",
+    "section": "",
+    "text": "\\(X_{1}, X_{2},\\ldots\\) are IID \\(\\text{Bern}(1/4)\\) random variables, where \\(X_{i}\\) is indicator of Heads. Then \\(\\bar{X}_{n}\\) is the proportion of Heads in our \\(n\\) tosses.\nWe will see the CLT approximation to \\(\\bar{X}_{n}\\) and \\(\\sum_{i=1}^{n} X_{i}\\) as \\(n\\) increases from 5 through 300. Remember, CLT tells us that\n\\[\n\\bar{X}_{n} \\overset{\\cdot}{\\sim} N\\left(0.25, \\frac{0.25(0.75)}{n}\\right) \\qquad \\text{ and } \\qquad  \\sum_{i=1}^{n} X_{i} \\overset{\\cdot}{\\sim} N\\left(0.25 n, 0.25(0.75)n \\right)\n\\]"
+  },
+  {
+    "objectID": "weeks/class/clt_continuity.html#clt-continuity-correction",
+    "href": "weeks/class/clt_continuity.html#clt-continuity-correction",
+    "title": "CLT",
+    "section": "CLT continuity correction",
+    "text": "CLT continuity correction\nSuppose we have \\(Y \\sim \\text{Binom}(20, 0.25)\\) and we’d like to approximate \\(P(2 \\leq Y \\leq 7)\\) using the CLT. Visually:\n\n\n\n\n\n\n\n\n\nLet’s look at the probabilities themselves:\n\n# exact using Binomial CDF\npbinom(b, n, p) - pbinom(a-1, n , p)\n\n[1] 0.8738755\n\n# CLT without correction\nmu_y &lt;- n*p\nsd_y &lt;- sqrt(n *p * (1-p))\npnorm((b - mu_y)/ sd_y) - pnorm((a - mu_y)/sd_y) \n\n[1] 0.7884826\n\n# CLT with correction\npnorm((b + 0.5 - mu_y)/ sd_y) - pnorm((a -0.5 - mu_y)/sd_y) \n\n[1] 0.8662966"
+  },
+  {
+    "objectID": "assessments/exam.html#final-exam",
+    "href": "assessments/exam.html#final-exam",
+    "title": "Assessments",
+    "section": "",
+    "text": "Friday, May 15 from 7:00-10:00pm in WNS 011. Sorry about the evening exam :(\nThe exam is cumulative, but with a slight emphasis on material from Weeks 10-12\nYou are allowed one, double-sided note sheet (8.5x11 inches)\n\nYour note sheet cannot include any worked out examples/derivations\nYou will get this distribution sheet with your exam! Make sure you understand it!\n\nPractice problems will be made available over the weekend. Note that they are not exhaustive!"
   }
 ]

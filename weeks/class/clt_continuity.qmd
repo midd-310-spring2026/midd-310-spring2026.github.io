@@ -1,0 +1,205 @@
+---
+title: "CLT"
+editor_options: 
+  chunk_output_type: console
+---
+
+## CLT in action
+
+$X_{1}, X_{2},\ldots$ are IID $\text{Bern}(1/4)$ random variables, where $X_{i}$ is indicator of Heads. Then $\bar{X}_{n}$ is the proportion of Heads in our $n$ tosses.
+
+We will see the CLT approximation to $\bar{X}_{n}$ and $\sum_{i=1}^{n} X_{i}$ as $n$ increases from 5 through 300. Remember, CLT tells us that
+
+$$
+\bar{X}_{n} \overset{\cdot}{\sim} N\left(0.25, \frac{0.25(0.75)}{n}\right) \qquad \text{ and } \qquad  \sum_{i=1}^{n} X_{i} \overset{\cdot}{\sim} N\left(0.25 n, 0.25(0.75)n \right)
+$$
+
+```{r echo = F, message = F, fig.align="center"}
+library(tidyverse)
+set.seed(20)
+B <- 300
+J <- 500
+p <- 0.25
+n_vec <- c(5,10, 20,50, 100, 200, B)
+N <- length(n_vec)
+props <- matrix(NA, nrow = N, ncol = J )
+for(j in 1:J){
+  x <- rbinom(B, 1, p)
+  for(i in 1:N){
+    props[i,j] <- mean(x[1:n_vec[i]])
+  }
+}
+
+plot_ls <- list()
+for(n in 1:N){
+  plot_ls[[n]] <- data.frame(xbar = props[n,], 
+             n = n_vec[n],
+             sum_x = props[n,]*n_vec[n])
+}
+
+vls <- data.frame(vals = c(n_vec * p, rep(p, N)),
+           RV = c(rep("sum_x", N), rep("xbar", N)),
+           n = factor(rep(n_vec, 2)))
+do.call(rbind, plot_ls) |>
+  mutate(n = factor(n)) |>
+  pivot_longer(cols = c(xbar, sum_x), names_to = "RV",
+               values_to = "vals") |>
+  ggplot(aes(x = vals)) +
+  geom_histogram(bins = 40) +
+  geom_vline(data = vls, aes(xintercept = vals), col = "orange") +
+    facet_grid(n ~ RV, scales = "free")  +
+  theme_minimal() +
+  labs(x = "Values")+
+  theme(axis.title.y = element_blank(),
+        axis.text.y = element_blank(),
+        text=element_text(size = 14))
+
+
+```
+
+## CLT continuity correction
+
+```{r echo = F}
+# Parameters
+n <- 20
+p <- 0.25
+
+x <- 0:n
+binom_df <- data.frame(
+  x = x,
+  prob = dbinom(x, size = n, prob = p)
+)
+
+
+
+# Continuous normal approximation
+mu <- n * p
+sigma <- sqrt(n * p * (1 - p))
+
+normal_df <- data.frame(
+  x = seq(0, n, length.out = 1000)
+)
+
+normal_df$density <- dnorm(normal_df$x, mean = mu, sd = sigma)
+
+# Continuity-corrected region for P(a <= X <= b)
+a <- 2
+b <- 7
+
+```
+
+Suppose we have $Y \sim \text{Binom}(`r n`, `r p`)$ and we'd like to approximate $P(`r a` \leq Y \leq `r b`)$ using the CLT. Visually:
+
+
+```{r echo = F}
+shade_df <- data.frame(
+  x = seq(a - 0.5, b + 0.5, length.out = 500)
+)
+
+shade_df$y <- dnorm(shade_df$x, mean = mu, sd = sigma)
+
+# Plot
+ggplot() +
+  
+  # Binomial bars
+  geom_col(
+    data = binom_df,
+    aes(x = x, y = prob),
+    fill = "blue",
+    alpha = 0.5,
+    color = "white",
+    width = 0.9
+  ) +
+  
+  # Normal approximation curve
+  geom_line(
+    data = normal_df,
+    aes(x = x, y = density),
+    color = "purple",
+    linewidth = 1.2
+  ) +
+  
+  # Continuity correction shaded area
+  geom_area(
+    data = shade_df,
+    aes(x = x, y = y),
+    fill = "magenta",
+    alpha = 0.4
+  ) +
+  
+  # Vertical line at a
+  geom_vline(
+    xintercept = a,
+    linetype = "dashed",
+    color = "blue",
+    linewidth = 1
+  ) +
+
+  # Vertical line at b
+  geom_vline(
+    xintercept = b,
+    linetype = "dashed",
+    color = "blue",
+    linewidth = 1
+  ) +
+  
+  # Vertical line at b + 0.5 (continuity correction)
+  geom_vline(
+    xintercept = b + 0.5,
+    linetype = "dashed",
+    color = "magenta",
+    linewidth = 1
+  ) +
+  # Vertical line at a - 0.5 (continuity correction)
+  geom_vline(
+    xintercept = a -  0.5,
+    linetype = "dashed",
+    color = "magenta",
+    linewidth = 1
+  ) +
+  
+  
+  annotate(
+    "text",
+    x = b + 3 ,
+    y = 0.17,
+    label = paste("Approximation without correction"),
+    color = "blue",
+    hjust = -0.1
+  ) +
+  
+  annotate(
+    "text",
+    x = b + 3,
+    y = 0.15,
+    label = "Approximation with correction",
+    color = "magenta",
+    hjust = -0.1
+  ) +
+  
+  labs(
+    title = "CLT: Continuity Correction",
+    x = "y",
+    y = "Probability / Density"
+  ) +
+  
+  theme_minimal(base_size = 14)
+```
+
+Let's look at the probabilities themselves:
+
+
+```{r}
+# exact using Binomial CDF
+pbinom(b, n, p) - pbinom(a-1, n , p)
+
+# CLT without correction
+mu_y <- n*p
+sd_y <- sqrt(n *p * (1-p))
+pnorm((b - mu_y)/ sd_y) - pnorm((a - mu_y)/sd_y) 
+
+# CLT with correction
+pnorm((b + 0.5 - mu_y)/ sd_y) - pnorm((a -0.5 - mu_y)/sd_y) 
+```
+
+

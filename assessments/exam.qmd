@@ -4,6 +4,15 @@ sidebar: false
 toc: true
 ---
 
+## Final exam
+
+-   Friday, May 15 from 7:00-10:00pm in WNS 011. *Sorry about the evening exam :(*
+-   The exam is cumulative, but with a slight emphasis on material from Weeks 10-12
+-   You are allowed one, double-sided note sheet (8.5x11 inches)
+    -   Your note sheet cannot include any worked out examples/derivations
+    -   **You will get [this distribution sheet](distributions_310.pdf) with your exam!** Make sure you understand it!
+-   Practice problems will be made available over the weekend. Note that they are not exhaustive!
+
 ## **Midterm 2**
 
 -   Thursday, April 23 from 7:00-9:00pm in WNS 105
