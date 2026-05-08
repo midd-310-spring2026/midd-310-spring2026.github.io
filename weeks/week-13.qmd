@@ -3,16 +3,13 @@ title: "Week 13"
 ---
 
 ::: {style="color: #F66D7A"}
-### Monday (5/12)
+### Monday (5/11)
 :::
 
 **Topics**
 
 -   CLT (cont.)
-
-**Daily assignment**
-
--   None!
+-   CRFs
 
 **Class activity**
 
