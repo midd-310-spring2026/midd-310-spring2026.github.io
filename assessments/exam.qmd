@@ -11,7 +11,7 @@ toc: true
 -   You are allowed one, double-sided note sheet (8.5x11 inches)
     -   Your note sheet cannot include any worked out examples/derivations
     -   **You will get [this distribution sheet](distributions_310.pdf) with your exam!** Make sure you understand it!
--   Practice problems will be made available over the weekend. Note that they are not exhaustive!
+-   Practice problems are made available [here](final_practice_problems.pdf). Note that they are not exhaustive!
 
 ## **Midterm 2**
 
